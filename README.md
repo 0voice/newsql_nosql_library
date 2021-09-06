@@ -143,8 +143,8 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 ### <h3 id="nav_sec2_chp_04">常见问题</h3>
 
 * [远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
-* [库表设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
-* [慢SQL问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
+* [库表设计问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/库表设计问题.md)
+* [慢SQL问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/慢SQL问题.md)
 
 ### <h3 id="nav_sec2_chp_05">配置文件参数</h3>
 
@@ -152,6 +152,21 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 * [mysql8.0配置文件 my.ini 说明]()
 
 ### <h3 id="nav_sec2_chp_06">视频教程</h3>
+
+* [MySQL不了解这些,好意思说搞懂了Mysql ](https://github.com/0voice/backend_video#nav_1_interview_009)
+* [性能优化的方法论,异步的原理与实现，mysqlredis,dns, http，服务器并发 ]( https://github.com/0voice/backend_video#nav_1_high_performance_network_020)
+* [大厂面试，Mysql必问的问题 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_015)
+* [MySQL的块数据操作 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_021 )
+* [mysql索引 myisam,innodb，b树b+树 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_022)
+* [一节课搞懂 MySQL 索引和事务 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_028)
+* [90分析搞懂mysql索引及其优化 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_036 )
+* [90分钟搞懂MySQL InnoDB索引以及事务 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_040 )
+* [90分钟搞懂mysql缓存问题的解决方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_041)
+* [大厂如何解决mysql读写效率问题 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_060 )
+* [你所需要掌握的MySQL基本原理:索引和事务 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_069 )
+* [—节课搞懂MySQL索引和事务 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_080 )
+* [—节课详尽讲解提升MySQL读写性能的方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_083 )
+* [高并发场景下,mysql与redis的数据同步方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_143)
 
 ### <h3 id="nav_sec2_chp_07">文章</h3>
 
