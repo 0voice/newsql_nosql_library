@@ -223,13 +223,11 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 * [《MySQL 5.7 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-5.7-en/)
 * [《MySQL 8.0 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/)
-* [Mysql](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql.pdf)
-* [MySQL Notes For Professionals](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)
+* [《MySQL》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL.pdf)
+* [《MySQL Notes For Professionals》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)
 * 《Intrusion Detection with SNORT: Using SNORT, Apache, MySQL, PHP, and ACID》(https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Intrusion_Detection_with_SNORT_Using_SNORT_Apache_MySQL_PHP_and_ACID.pdf)
-* [Mysql详解](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql%20V2.3最终版.pdf)
-* [Mysql workbench教程](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/mysql%20workbench教程.pdf)
-* [MySQL性能调优最佳实践【PPT】](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/.pdf)
-* [MySQL技术内幕（第4版）【PDF】](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/.pdf)
+* [MySQL详解](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql%20V2.3最终版.pdf)
+* [MySQL workbench教程](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/mysql%20workbench教程.pdf)
  
 ## <h2 id="nav_sec2_chapter2">MariaDB</h2>
 
