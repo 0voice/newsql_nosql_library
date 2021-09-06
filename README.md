@@ -219,7 +219,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 No.|Article|Translate
 :------- |:--------------- |:---------------
-1|[WebRTC 发送方码率预估实现解析](https://github.com/0voice/audio_video_streaming/blob/main/article/001-WebRTC%20发送方码率预估实现解析.md)|水电费
+1|[远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)|远程客户端连接问题
  
 ### <h3 id="nav_sec2_chp_08">Paper</h3>
 
