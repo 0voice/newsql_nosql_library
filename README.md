@@ -11,6 +11,14 @@
   * [MySQL](#nav_sec2_chapter1)
   * [MariaDB](#nav_sec2_chapter2)
   * [Percona Server](#nav_sec2_chapter3)
+
+<!--
+  * [表格存储数据库](#nav_sec2_chapter1)
+    * [MySQL](#nav_sec2_chapter1_01)
+    * [MariaDB](#nav_sec2_chapter1_02)
+    * [Percona Server](#nav_sec2_chapter1_03)
+-->
+
 * [🦉 NoSQL数据库](#nav_sec3)
   * [键值(Key-Value)存储数据库](#nav_sec3_chapter1)
     * [Redis](#nav_sec3_chapter1_01)
