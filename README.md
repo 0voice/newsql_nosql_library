@@ -217,8 +217,16 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_07">文章</h3>
 
+No.|Article|Translate
+:------- |:--------------- |:---------------
+1|[WebRTC 发送方码率预估实现解析](https://github.com/0voice/audio_video_streaming/blob/main/article/001-WebRTC%20发送方码率预估实现解析.md)|水电费
+ 
 ### <h3 id="nav_sec2_chp_08">Paper</h3>
 
+No.|Title|Translate|Company
+:-------: | :--------------- | :------------|:---------------
+1|[《MySQL V5 - Ready forPrime Time Business Intelligence》](https://github.com/0voice/audio_video_streaming/blob/main/paper/ffmpeg/gg-paper.pdf)|MySQL V5 - 为黄金时段商业智能做好准备|
+ 
 ### <h3 id="nav_sec2_chp_09">电子书籍</h3>
 
 书籍|翻译       
