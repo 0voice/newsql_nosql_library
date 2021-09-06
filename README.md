@@ -221,15 +221,20 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_09">电子书籍</h3>
 
-英文名              |中文名       
-:------------------|:------------
-* [《MySQL 5.7 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-5.7-en/)  | 《MySQL 5.7参考手册》
-* [《MySQL 8.0 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/)  | 《MySQL 8.0参考手册》
-* [《MySQL》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL.pdf) |《MySQL》
-* [《MySQL Notes For Professionals》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf) | 《MySQL专业人员说明》
-* 《Intrusion Detection with SNORT: Using SNORT, Apache, MySQL, PHP, and ACID》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Intrusion_Detection_with_SNORT_Using_SNORT_Apache_MySQL_PHP_and_ACID.pdf) | 《Snort入侵检测：使用Snort、Apache、MySQL、PHP和ACID》
-* [《Mysql V2.3最终版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql%20V2.3最终版.pdf) | 《Mysql V2.3最终版》
-* [《MySQL Workbench教程》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL%20workbench教程.pdf) |《MySQL Workbench教程》
+书籍|翻译       
+:-----|:----------
+[《MySQL 5.7 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-5.7-en/)|《MySQL 5.7参考手册》
+[《MySQL 8.0 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/)|《MySQL 8.0参考手册》
+[《MySQL》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL.pdf)|《MySQL》
+[《MySQL Notes For Professionals》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)|《MySQL专业人员说明》
+[《Intrusion Detection with SNORT: Using SNORT, Apache, MySQL, PHP, and ACID》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Intrusion_Detection_with_SNORT_Using_SNORT_Apache_MySQL_PHP_and_ACID.pdf)|《Snort入侵检测：使用Snort、Apache、MySQL、PHP和ACID》
+[《Mysql V2.3最终版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql%20V2.3最终版.pdf)|《Mysql V2.3最终版》
+[《MySQL Workbench教程》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL%20workbench教程.pdf)|《MySQL Workbench教程》
+[《高性能MySQL_中文版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)|《高性能MySQL(中文版)》
+[《高性能MySQL(英文版)》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)|《高性能MySQL(英文版)》
+[《MySQL技术内幕：SQL编程》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)|《MySQL技术内幕：SQL编程》
+[《MySQL技术内幕：InnoDB存储引擎 第二版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)|《MySQL技术内幕：InnoDB存储引擎 第二版》
+ 
  
 ## <h2 id="nav_sec2_chapter2">MariaDB</h2>
 
