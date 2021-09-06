@@ -1,15 +1,59 @@
-# newsql_nosql_library
-整理12种数据库相关资料，mysql，mariaDB，Percona Server，MongoDB，Redis，RocksDB，TiDB，CouchDB，Cassandra，TokuDB，MemDB，Oceanbase
+# 整理12种数据库相关资料，mysql，mariaDB，Percona Server，MongoDB，Redis，RocksDB，TiDB，CouchDB，Cassandra，TokuDB，MemDB，Oceanbase
 
-## 数据库种类
+<br/>
+<br/>
 
-英文名              |中文名       |定义                                     |存储方式                   | ACID规则支持情况 | CAP原理支持情况
-:------------------|:------------|:----------------------------------------|:-------------------------|:----------------|:------------
-[Relational database](#nav_1)|关系型数据库  |采用了关系模型来组织数据的数据库            |表格                      |支持ACID规则|满足CP,但A不完美
-[NoSQL](#nav_2)              |非关系型数据库|泛指非关系型的数据库,不保证关系数据的ACID特性|键值存储、列存储、文档存储等|不支持ACID规则|满足AP，但C不完美
-[NewSQL](#nav_3)             |NewSQL       |NewSQL是对各种新的可扩展/高性能数据库的简称 |多种存储方式               |支持ACID规则|满足CAP
+* [数据库分类](#nav_sec1)
+  * [数据库分类对比](#nav_sec1_chapter1)
+  * [ACID规则](#nav_sec1_chapter2)
+  * [CAP原理](#nav_sec1_chapter3)
+* [关系型数据库](#nav_sec2)
+  * [MySQL](#nav_sec2_chapter1)
+  * MariaDB
+  * Percona Server
+* NoSQL数据库
+  * 键值(Key-Value)存储数据库
+    * Redis
+    * RocksDB
+  * 列存储数据库
+    * Cassandra
+    * HBase
+  * 文档型数据库
+    * CouchDB
+    * MongoDb
+    * SequoiaDB
+  * 图形(Graph)数据库
+    * Neo4J
+    * Infinite Graph
+* NewSQL数据库
+  * 新架构
+    * Google Spanner, 
+    * VoltDB
+  * SQL引擎
+    * TokuDB
+  * 透明分片
+    * ScaleBase
+  * 分布式数据库
+    * TiDB
+    * Oceanbase
+    * MemDB
 
-### ACID 规则
+<br/>
+<br/>
+<br/>
+
+
+# <h1 id="nav_sec1">🎵 数据库分类</h1>
+
+## <h2 id="nav_sec1_chapter1">数据库分类对比</h2>
+
+英文名              |中文名       |定义                                     |存储方式                   | ACID规则支持情况    | CAP原理支持情况
+:------------------|:------------|:----------------------------------------|:-------------------------|:-------------------|:------------
+Relational database|关系型数据库  |采用了关系模型来组织数据的数据库            |表格                      |支持ACID规则         |满足CP,但A不完美
+NoSQL              |非关系型数据库|泛指非关系型的数据库,不保证关系数据的ACID特性|键值存储、列存储、文档存储等|不一定完全支持ACID规则|满足AP,但C不完美
+NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数据库的简称 |多种存储方式               |支持ACID规则         |满足CAP
+
+## <h2 id="nav_sec1_chapter2">ACID规则</h2>
 * 原子性（A）
 一个事务的所有系列操作步骤被看成一个动作，所有的步骤要么全部完成，要么一个也不会完成。如果在事务过程中发生错误，则会回滚到事务开始前的状态，将要被改变的数据库记录不会被改变。
 * 一致性（C）
@@ -19,7 +63,8 @@
 * 持久性（D）
 一旦一个事务被提交，它应该持久保存，不会因为与其他操作冲突而取消这个事务。
 
-### CAP原理：
+## <h2 id="nav_sec1_chapter3">CAP原理</h2>
+
 * Consistency(一致性)： 数据一致更新，所有数据变动都是同步的
 * Availability(可用性)： 好的响应性能
 * Partition tolerance(分区耐受性)： 可靠性
@@ -32,5 +77,88 @@
 * 数据可用性
 多个副本分别存储于不同的物理设备的情况下，如果某个设备损坏，就需要从另一个数据存储设备上访问数据。如果这个过程不能很快完成，或者在完成的过程中需要停止终端用户访问数据，那么在切换存储设备的这段时间内，数据就是不可访问的。
 
+<br/>
+<br/>
 
-<h2 id="nav_1">🎵 1. Relational database</h2>
+# <h1 id="nav_sec2">关系型数据库</h1>
+
+关系型数据库，是指采用了关系模型来组织数据的数据库
+
+1. 关系模型指的就是二维表格模型，而一个关系型数据库就是由二维表及其之间的联系所组成的一个数据组织。
+2. 通过SQL结构化查询语句存储数据。
+3. 强调ACID规则, 保持数据一致性。
+
+## <h2 id="nav_sec2_chapter1">MySQL</h2>
+
+<div align=center>
+  
+知识体系|存储引擎|面试题|常见问题|配置文件参数|视频教程|文章|Paper|电子书籍
+:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
+[🎵](#nav_sec2_chp_01)|[🌐](#nav_sec2_chp_02)|[🧿](#nav_sec2_chp_03) |[👀](#nav_sec2_chp_04)|[🍀](#nav_sec2_chp_05)|[🍀](#nav_sec2_chp_06)|[🍀](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[🍀](#nav_sec2_chp_09)
+ 
+</div>
+
+### <h3 id="nav_sec2_chp_01">知识体系</h3>
+
+### <h3 id="nav_sec2_chp_02">存储引擎</h3>
+
+#### <h4 id="nav_sec2_chp_02">MyISAM引擎</h4>
+
+1. 不支持事务
+2. 表级锁定 数据更新时锁定整个表：其锁定机制是表级锁定，也就是对表中的一个数据进行操作都会将这个表锁定，其他人不能操作这个表，这虽然可以让锁定的实现成本很小但是也同时大大降低了其并发性能。
+3. 读写互相阻塞 不仅会在写入的时候阻塞读取，MyISAM还会再读取的时候阻塞写入，但读本身并不会阻塞另外的读。
+4. 只会缓存索引 MyISAM可以通过key_buffer_size的值来提高缓存索引，以大大提高访问性能减少磁盘IO，但是这个缓存区只会缓存索引，而不会缓存数据。
+5. 读取速度较快 占用资源相对较少
+6. 不支持外键约束，但只是全文索引
+7. MyISAM引擎是MySQL5.5版本之前的默认引擎，是对最初的ISAM引擎优化的产物。
+
+#### <h4 id="nav_sec2_chp_02">InnoDB引擎</h4>
+
+1. 支持事务
+2. 行级锁定对高并发有很好的适应能力，但需要确保查询是通过索引完成。
+3. 数据更新较为频繁的场景，如：BBS(论坛)、SNS(社交平台)、微博等
+4. 数据一致性要求较高的业务，例如：充值转账，银行卡转账。
+5. 硬件设备内存较大，可以利用InnoDB较好的缓存能力来提高内存利用率，尽可能减少磁盘IO，可以通过一些参数来设置
+6. 相比MyISAM引擎，Innodb引擎更消耗资源，速度没有MyISAM引擎快
+
+#### <h4 id="nav_sec2_chp_02">其他引擎</h4>
+
+* MEMORY存储引擎提供"内存中"表。MERGE存储引擎允许集合将被处理同样的MyISAM表作为一个单独的表。就像MyISAM一样，MEMORY和MERGE存储引擎处理非事务表，这两个引擎也都被默认包含在MySQL中。
+注释：MEMORY存储引擎正式地被确定为HEAP引擎。
+
+* EXAMPLE存储引擎是一个"存根"引擎，它不做什么。你可以用这个引擎创建表，但没有数据被存储于其中或从其中检索。这个引擎的目的是服务，在 MySQL源代码中的一个例子，它演示说明如何开始编写新存储引擎。同样，它的主要兴趣是对开发者。
+
+* NDB Cluster是被MySQL Cluster用来实现分割到多台计算机上的表的存储引擎。它在MySQL-Max 5.1二进制分发版里提供。这个存储引擎当前只被Linux, Solaris, 和Mac OS X 支持。在未来的MySQL分发版中，我们想要添加其它平台对这个引擎的支持，包括Windows。
+
+* ARCHIVE存储引擎被用来无索引地，非常小地覆盖存储的大量数据。
+
+* CSV存储引擎把数据以逗号分隔的格式存储在文本文件中。
+
+* BLACKHOLE存储引擎接受但不存储数据，并且检索总是返回一个空集。
+
+* FEDERATED存储引擎把数据存在远程数据库中。在MySQL 5.1中，它只和MySQL一起工作，使用MySQL C Client API。在未来的分发版中，我们想要让它使用其它驱动器或客户端连接方法连接到另外的数据源。
+
+### <h3 id="nav_sec2_chp_03">面试题</h3>
+
+### <h3 id="nav_sec2_chp_04">常见问题</h3>
+
+#### <h4 id="nav_sec2_chp_02">远程客户端连接问题</h4>
+#### <h4 id="nav_sec2_chp_02">库表设计</h4>
+#### <h4 id="nav_sec2_chp_02">慢SQL问题</h4>
+
+### <h3 id="nav_sec2_chp_05">配置文件参数</h3>
+
+mysql5.7配置文件 my.ini 说明
+mysql8.0配置文件 my.ini 说明
+
+### <h3 id="nav_sec2_chp_06">视频教程</h3>
+
+### <h3 id="nav_sec2_chp_07">文章</h3>
+
+### <h3 id="nav_sec2_chp_08">Paper</h3>
+
+### <h3 id="nav_sec2_chp_09">电子书籍</h3>
+
+
+
+
