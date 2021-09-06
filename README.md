@@ -221,7 +221,11 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_09">电子书籍</h3>
 
-
+* [Mysql数据库](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql%20V2.3最终版.pdf)
+* [Mysql workbench教程](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/mysql%20workbench教程.pdf)
+* [MySQL性能调优最佳实践【PPT】](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql V2.3最终版.pdf)
+* [MySQL技术内幕（第4版）【PDF】](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql V2.3最终版.pdf)
+* [淘宝MySQL十大经典案例【PDF】](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql V2.3最终版.pdf)
  
 ## <h2 id="nav_sec2_chapter2">MariaDB</h2>
 
