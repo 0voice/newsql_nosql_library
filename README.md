@@ -189,21 +189,45 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ## <h2 id="nav_sec3_chapter1">键值(Key-Value)存储数据库</h2>
 
+* 相关产品： Redis、RocksDB
+* 典型应用： 内容缓存，主要用于处理大量数据的高访问负载。 
+* 数据模型： 一系列键值对
+* 优势： 快速查询
+* 劣势： 存储的数据缺少结构化
+
 ### <h3 id="nav_sec3_chapter1_01">Redis</h3>
 ### <h3 id="nav_sec3_chapter1_01">RocksDB</h3>
 
 ## <h2 id="nav_sec3_chapter2">列存储数据库</h2>
 
+* 相关产品：Cassandra, HBase
+* 典型应用：分布式的文件系统
+* 数据模型：以列簇式存储，将同一列数据存在一起
+* 优势：查找速度快，可扩展性强，更容易进行分布式扩展
+* 劣势：功能相对局限
+                    
 ### <h3 id="nav_sec3_chapter2_01">Cassandra</h3>
 ### <h3 id="nav_sec3_chapter2_02">HBase</h3>
 
 ## <h2 id="nav_sec3_chapter3">文档型数据库</h2>
+
+* 相关产品：CouchDB、MongoDB、SequoiaDB
+* 典型应用：Web应用（与Key-Value类似，Value是结构化的）
+* 数据模型： 一系列键值对
+* 优势：数据结构要求不严格
+* 劣势： 查询性能不高，而且缺乏统一的查询语法
 
 ### <h3 id="nav_sec3_chapter3_01">CouchDB</h3>
 ### <h3 id="nav_sec3_chapter3_02">MongoDb</h3>
 ### <h3 id="nav_sec3_chapter3_03">SequoiaDB</h3>
 
 ## <h2 id="nav_sec3_chapter4">图形(Graph)数据库</h2>
+
+* 相关数据库：Neo4J、Infinite Graph
+* 典型应用：社交网络
+* 数据模型：图结构
+* 优势：利用图结构相关算法。
+* 劣势：需要对整个图做计算才能得出结果，不容易做分布式的集群方案。
 
 ### <h3 id="nav_sec3_chapter4_01">Neo4J</h3>
 ### <h3 id="nav_sec3_chapter4_02">Infinite Graph</h3>
