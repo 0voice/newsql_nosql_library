@@ -142,9 +142,9 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_04">常见问题</h3>
 
-#### <h4 id="nav_sec2_chp_02">远程客户端连接问题</h4>
-#### <h4 id="nav_sec2_chp_02">库表设计</h4>
-#### <h4 id="nav_sec2_chp_02">慢SQL问题</h4>
+[远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
+[库表设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
+[库表设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
 
 ### <h3 id="nav_sec2_chp_05">配置文件参数</h3>
 
