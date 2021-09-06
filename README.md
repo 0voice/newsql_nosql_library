@@ -3,47 +3,47 @@
 <br/>
 <br/>
 
-* [数据库分类](#nav_sec1)
+* [👀 数据库分类](#nav_sec1)
   * [数据库分类对比](#nav_sec1_chapter1)
   * [ACID规则](#nav_sec1_chapter2)
   * [CAP原理](#nav_sec1_chapter3)
-* [关系型数据库](#nav_sec2)
+* [🦈 关系型数据库](#nav_sec2)
   * [MySQL](#nav_sec2_chapter1)
-  * MariaDB
-  * Percona Server
-* NoSQL数据库
-  * 键值(Key-Value)存储数据库
-    * Redis
-    * RocksDB
-  * 列存储数据库
-    * Cassandra
-    * HBase
-  * 文档型数据库
-    * CouchDB
-    * MongoDb
-    * SequoiaDB
-  * 图形(Graph)数据库
-    * Neo4J
-    * Infinite Graph
-* NewSQL数据库
-  * 新架构
-    * Google Spanner, 
-    * VoltDB
-  * SQL引擎
-    * TokuDB
-  * 透明分片
-    * ScaleBase
-  * 分布式数据库
-    * TiDB
-    * Oceanbase
-    * MemDB
+  * [MariaDB](#nav_sec2_chapter2)
+  * [Percona Server](#nav_sec2_chapter3)
+* [🦉 NoSQL数据库](#nav_sec3)
+  * [键值(Key-Value)存储数据库](#nav_sec3_chapter1)
+    * [Redis](#nav_sec3_chapter1_01)
+    * [RocksDB](#nav_sec3_chapter1_01)
+  * [列存储数据库](#nav_sec3_chapter2)
+    * [Cassandra](#nav_sec3_chapter2_01)
+    * [HBase](#nav_sec3_chapter2_02)
+  * [文档型数据库](#nav_sec3_chapter3)
+    * [CouchDB](#nav_sec3_chapter3_01)
+    * [MongoDb](#nav_sec3_chapter3_02)
+    * [SequoiaDB](#nav_sec3_chapter3_03)
+  * [图形(Graph)数据库](#nav_sec3_chapter4)
+    * [Neo4J](#nav_sec3_chapter4_01)
+    * [Infinite Graph](#nav_sec3_chapter4_02)
+* [🦊 NewSQL数据库](#nav_sec4)
+  * [新架构](#nav_sec4_chapter1)
+    * [Google Spanner](#nav_sec4_chapter1_01)
+    * [VoltDB](#nav_sec4_chapter1_01)
+  * [SQL引擎](#nav_sec4_chapter2)
+    * [TokuDB](#nav_sec4_chapter2_01)
+  * [透明分片](#nav_sec4_chapter3)
+    * [ScaleBase](#nav_sec4_chapter3_01)
+  * [分布式数据库](#nav_sec4_chapter4)
+    * [TiDB](#nav_sec4_chapter4_01)
+    * [Oceanbase](#nav_sec4_chapter4_02)
+    * [MemDB](#nav_sec4_chapter4_03)
 
 <br/>
 <br/>
 <br/>
 
 
-# <h1 id="nav_sec1">🎵 数据库分类</h1>
+# <h1 id="nav_sec1">👀 数据库分类</h1>
 
 ## <h2 id="nav_sec1_chapter1">数据库分类对比</h2>
 
@@ -80,7 +80,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 <br/>
 <br/>
 
-# <h1 id="nav_sec2">关系型数据库</h1>
+# <h1 id="nav_sec2">🦈 关系型数据库</h1>
 
 关系型数据库，是指采用了关系模型来组织数据的数据库
 
@@ -94,11 +94,13 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
   
 知识体系|存储引擎|面试题|常见问题|配置文件参数|视频教程|文章|Paper|电子书籍
 :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
-[🎵](#nav_sec2_chp_01)|[🌐](#nav_sec2_chp_02)|[🧿](#nav_sec2_chp_03) |[👀](#nav_sec2_chp_04)|[🍀](#nav_sec2_chp_05)|[🍀](#nav_sec2_chp_06)|[🍀](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[🍀](#nav_sec2_chp_09)
+[🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[📙](#nav_sec2_chp_09)
  
 </div>
 
 ### <h3 id="nav_sec2_chp_01">知识体系</h3>
+
+![image](https://user-images.githubusercontent.com/87458342/132217787-7570ad77-fb5a-499d-a0e3-70c69b08e506.png)
 
 ### <h3 id="nav_sec2_chp_02">存储引擎</h3>
 
@@ -150,6 +152,8 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 * [mysql5.7配置文件 my.ini 说明]()
 * [mysql8.0配置文件 my.ini 说明]()
+* Mysql5.7源码地址： [https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz)
+* Mysql8.0源码地址： [https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz)
 
 ### <h3 id="nav_sec2_chp_06">视频教程</h3>
 
@@ -174,6 +178,54 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_09">电子书籍</h3>
 
+## <h2 id="nav_sec2_chapter2">MariaDB</h2>
 
+## <h2 id="nav_sec2_chapter3">Percona Server</h2>
 
+<br/>
+<br/>
+
+# <h1 id="nav_sec3">🦉 NoSQL数据库</h1>
+
+## <h2 id="nav_sec3_chapter1">键值(Key-Value)存储数据库</h2>
+
+### <h3 id="nav_sec3_chapter1_01">Redis</h3>
+### <h3 id="nav_sec3_chapter1_01">RocksDB</h3>
+
+## <h2 id="nav_sec3_chapter2">列存储数据库</h2>
+
+### <h3 id="nav_sec3_chapter2_01">Cassandra</h3>
+### <h3 id="nav_sec3_chapter2_02">HBase</h3>
+
+## <h2 id="nav_sec3_chapter3">文档型数据库</h2>
+
+### <h3 id="nav_sec3_chapter3_01">CouchDB</h3>
+### <h3 id="nav_sec3_chapter3_02">MongoDb</h3>
+### <h3 id="nav_sec3_chapter3_03">SequoiaDB</h3>
+
+## <h2 id="nav_sec3_chapter4">图形(Graph)数据库</h2>
+
+### <h3 id="nav_sec3_chapter4_01">Neo4J</h3>
+### <h3 id="nav_sec3_chapter4_02">Infinite Graph</h3>
+
+# <h1 id="nav_sec4">🦊 NewSQL数据库</h1>
+
+## <h2 id="nav_sec4_chapter1">新架构</h2>
+
+### <h3 id="nav_sec4_chapter1_01">Google Spanner</h3>
+### <h3 id="nav_sec4_chapter1_02">VoltDB</h3>
+
+## <h2 id="nav_sec4_chapter2">SQL引擎</h2>
+
+### <h3 id="nav_sec4_chapter2_01">TokuDB</h3>
+
+## <h2 id="nav_sec4_chapter3">透明分片</h2>
+
+### <h3 id="nav_sec4_chapter3_01">ScaleBase</h3>
+
+## <h2 id="nav_sec4_chapter4">分布式数据库</h2>
+
+### <h3 id="nav_sec4_chapter4_01">TiDB</h3>
+### <h3 id="nav_sec4_chapter4_02">Oceanbase</h3>
+### <h3 id="nav_sec4_chapter4_03">MemDB</h3>
 
