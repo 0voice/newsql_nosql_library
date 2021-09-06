@@ -208,6 +208,9 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 ### <h3 id="nav_sec3_chapter4_01">Neo4J</h3>
 ### <h3 id="nav_sec3_chapter4_02">Infinite Graph</h3>
 
+<br/>
+<br/>
+
 # <h1 id="nav_sec4">🦊 NewSQL数据库</h1>
 
 ## <h2 id="nav_sec4_chapter1">新架构</h2>
