@@ -142,14 +142,14 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_04">常见问题</h3>
 
-[远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
-[库表设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
-[库表设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
+* [远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
+* [库表设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
+* [慢SQL问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
 
 ### <h3 id="nav_sec2_chp_05">配置文件参数</h3>
 
-mysql5.7配置文件 my.ini 说明
-mysql8.0配置文件 my.ini 说明
+* [mysql5.7配置文件 my.ini 说明]()
+* [mysql8.0配置文件 my.ini 说明]()
 
 ### <h3 id="nav_sec2_chp_06">视频教程</h3>
 
