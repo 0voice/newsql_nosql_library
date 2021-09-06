@@ -152,7 +152,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 * [mysql5.7配置文件 my.ini 说明]()
 * [mysql8.0配置文件 my.ini 说明]()
-* Mysql5.7源码地址： [https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz)
+* Mysql5.7源码地址： [https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz](https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz)
 * Mysql8.0源码地址： [https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz)
 
 ### <h3 id="nav_sec2_chp_06">视频教程</h3>
