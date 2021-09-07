@@ -228,9 +228,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 No.|Article|Translate
 :------- |:--------------- |:---------------
 1|[MySQL远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)|远程客户端连接问题
-2|亿级订单数据分库分表设计方案](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)|远程客户端连接问题
-
- 
+2|[亿级订单数据分库分表设计方案](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/亿级订单数据分库分表设计方案.md)|亿级订单数据分库分表设计方案
  
 ### <h3 id="nav_sec2_chp_08">Paper</h3>
 
