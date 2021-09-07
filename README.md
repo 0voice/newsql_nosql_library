@@ -391,6 +391,9 @@ Percona Server 只包含 MySQL 的服务器版，并没有提供相应对 MySQL 
 Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query 对 MySQL 进行改造。<br/>
  * [Percona Server项目地址](https://github.com/percona/percona-server)
  * [Percona XtraDB群集](https://github.com/0voice/newsql_nosql_library/blob/main/Percona_Server/Percona_XtraDB群集.md)
+ * [Percona XtraDB Cluster安装](https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/yum.html#yum)
+ * [Galera Cluster](https://github.com/0voice/newsql_nosql_library/blob/main/Percona_Server/Galera_Cluster.md)
+ 
 ### MySQL，MariaDB，Percona Server如何选择
 综合多年使用经验和性能对比，首选Percona分支，其次是MariaDB，如果你不想冒一点风险，那就选择MYSQL官方版本。
  
