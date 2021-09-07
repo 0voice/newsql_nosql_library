@@ -234,18 +234,19 @@ No.|Article|Translate
 
 No.|Title|Translate|Company
 :-------: | :--------------- | :------------|:---------------
-1|[《MySQL V5 - Ready forPrime Time Business Intelligence》](https://github.com/0voice/audio_video_streaming/blob/main/paper/ffmpeg/gg-paper.pdf)|MySQL V5 - 为黄金时段商业智能做好准备|
-2|[《TDSQL for MySQL Security White Paper Product Documentation》]()| |
-3|[《MONGODB VS MYSQL: A COMPARATIVE STUDY OF PERFORMANCE IN SUPER MARKET MANAGEMENT SYSTEM》]()| |
-4|[《Optimizing MySQL Database System on Information Systems Research , Publications and Community Service》]()| |
-5|[《A Comparative Study: MongoDB vs MySQL》]()| |
-6|[《Best Practices for Migrating MySQL Databases to Amazon Aurora》]()| |
-7|[《Comparative Performance Analysis of MySQL and SQL Server Relational Database Management Systems in Windows Environment》]()| |
-8|[《MySQL Cluster Internal Architecture》]()| |
-9|[《MySQL Database Service with HeatWave》]()| |
-10|[《Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases》]()| |
-11|[《Recovery Principles of MySQL Cluster 5.1》]()| |
- 
+1|[《MySQL V5 - Ready forPrime Time Business Intelligence》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/01_MySQL_Primetime_Business_Intelligence.pdf)|MySQL V5 - 为黄金时段商业智能做好准备|
+2|[《TDSQL for MySQL Security White Paper Product Documentation》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/02_TDSQL_for_MySQL_Security_White_Paper_Product_Documentation.pdf)|TDSQL for MySQL安全白皮书产品文档 |
+3|[《MONGODB VS MYSQL: A COMPARATIVE STUDY OF PERFORMANCE IN SUPER MARKET MANAGEMENT SYSTEM》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/03_MONGODB_VS_MYSQL.pdf)| MONGODB与MYSQL：超市管理系统性能的比较研究| 
+4|[《Optimizing MySQL Database System on Information Systems Research , Publications and Community Service》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/04_Optimizing_MySQL_Database_System_on_Information_Systems_Research_Publications_and_Community_Service.pdf)| 在信息系统研究、出版物和社区服务方面优化MySQL数据库系统|
+5|[《A Comparative Study: MongoDB vs MySQL》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/05_A-Comparative-Study-MongoDB-vs-MySQL.pdf)|
+MongoDB与MySQL的比较研究 |
+6|[《Best Practices for Migrating MySQL Databases to Amazon Aurora》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/06_Best-Practices-for-Migrating-MySQL-Databases-to-Amazon-Aurora.pdf)|将MySQL数据库迁移到Amazon Aurora的最佳实践 |
+7|[《Comparative Performance Analysis of MySQL and SQL Server Relational Database Management Systems in Windows Environment》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/07_Comparative_Performance_Analysis_of_MySQL_and_SQL_Server_Relational_Database_Management_Systems_in_Windows_Environment.pdf)|Windows环境下MySQL与sqlserver关系数据库管理系统性能比较分析 |
+8|[《MySQL Cluster Internal Architecture》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/08_MySQL_Cluster_Internal_Architecture_MariaDB_White_Paper.pdf)|MySQL集群内部架构 |
+9|[《MySQL Database Service with HeatWave》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/09_mysql-database-service-technical-paper.pdf)|MySQL数据库服务与HeatWave |
+10|[《Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/10_Design_Considerations_for_High_Throughput_Cloud-Native_Relational_Databases.pdf)|Amazon Aurora：高通量云本地关系数据库的设计考虑 |
+11|[《Recovery Principles of MySQL Cluster 5.1》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/11_Recovery_Principles_of_MySQL_Cluster.pdf)|MySQL集群的恢复原理 |
+
 ### <h3 id="nav_sec2_chp_09">电子书籍</h3>
 
 书籍|翻译       
