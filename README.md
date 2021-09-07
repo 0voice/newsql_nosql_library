@@ -390,7 +390,7 @@ Percona提供了高性能XtraDB引擎，还提供PXC高可用解决方案，并�
 Percona Server 只包含 MySQL 的服务器版，并没有提供相应对 MySQL 的 Connector 和 GUI 工具进行改进。<br/>
 Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query 对 MySQL 进行改造。<br/>
  * [Percona Server项目地址](https://github.com/percona/percona-server)
-
+ * [Percona XtraDB群集](https://github.com/0voice/newsql_nosql_library/blob/main/Percona_Server/Percona_XtraDB群集.md)
 ### MySQL，MariaDB，Percona Server如何选择
 综合多年使用经验和性能对比，首选Percona分支，其次是MariaDB，如果你不想冒一点风险，那就选择MYSQL官方版本。
  
