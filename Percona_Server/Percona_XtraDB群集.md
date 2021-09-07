@@ -53,23 +53,23 @@ Percona XtraDB群集基于与XtraDB存储引擎一起运行的Percona Server。�
 * 1) 复制仅适用于InnoDB存储引擎。mysql.*不会复制对其他类型的表（包括系统（）表）的任何写操作。但是，DDL语句是在语句级别（statement）对mysql.*复制的，对表的更改将以这种方式复制。因此，您可以放心发行，但不会重复发行。您可以使用变量启用实验性MyISAM复制支持。CREATE USER…INSERT INTO mysql.user…wsrep_replicate_myisam
 * 2) 不支持的查询：
 
-–表锁 ：LOCK TABLES并且在多主机设置中不受支持UNLOCK TABLES
+#### 表锁 ：LOCK TABLES并且在多主机设置中不受支持UNLOCK TABLES
 锁定功能，如GET_LOCK()，RELEASE_LOCK()等
 查询日志无法定向到表。如果启用查询日志记录，则必须将日志转发到文件：log_output = FILE
 使用general_log和general_log_file选择查询日志记录和日志文件名。
 
-–允许的最大交易规模由wsrep_max_ws_rows和wsrep_max_ws_size变量定义 。 处理将每10000行提交一次。因此，由于要 进行的大笔交易将分成一系列小笔交易。LOAD DATA INFILELOAD DATA
+#### 允许的最大交易规模由wsrep_max_ws_rows和wsrep_max_ws_size变量定义 。 处理将每10000行提交一次。因此，由于要 进行的大笔交易将分成一系列小笔交易。LOAD DATA INFILELOAD DATA
 
 **–由于群集级别的乐观并发控制，COMMIT在此阶段可能仍中止事务发布。**可以有两个事务写入同一行并在不同的Percona XtraDB Cluster节点中提交，而其中只有一个可以成功提交。失败的将被中止。对于集群级中止，Percona XtraDB集群返回死锁错误代码：
 （错误： 1213 SQLSTATE ： 40001 （ER_LOCK_DEADLOCK ）
 不支持XA事务，因为可能会在提交时回滚。
 
-–整个群集的写入吞吐量受最弱节点的限制。如果一个节点变慢，则整个群集会变慢。如果您需要稳定的高性能，则应由相应的硬件支持。
-–建议的最小群集大小为3个节点。第三节点可以是仲裁器。
-–不支持InnoDB伪造更改功能。
+#### 整个群集的写入吞吐量受最弱节点的限制。如果一个节点变慢，则整个群集会变慢。如果您需要稳定的高性能，则应由相应的硬件支持。
+#### 建议的最小群集大小为3个节点。第三节点可以是仲裁器。
+#### 不支持InnoDB伪造更改功能。
 
 enforce_storage_engine=InnoDB与wsrep_replicate_myisam=OFF（默认）不兼容 。
 
 在群集模式下运行Percona XtraDB群集时，请避免工作量。如果未在所有节点上同步执行，则可能导致节点不一致。ALTER TABLE … IMPORT/EXPORT
 
-–所有表必须具有主键。 这样可以确保相同的行以相同的顺序出现在不同的节点上。DELETE没有主键的表不支持该语句。
+#### 所有表必须具有主键。 这样可以确保相同的行以相同的顺序出现在不同的节点上。DELETE没有主键的表不支持该语句。
