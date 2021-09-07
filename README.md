@@ -7,10 +7,10 @@
   * [数据库分类对比](#nav_sec1_chapter1)
   * [ACID规则](#nav_sec1_chapter2)
   * [CAP原理](#nav_sec1_chapter3)
-* [🦈 关系型数据库](#nav_sec2)
-  * [MySQL](#nav_sec2_chapter1)
-  * [MariaDB](#nav_sec2_chapter2)
-  * [Percona Server](#nav_sec2_chapter3)
+* [🦩 关系型数据库](#nav_sec2)
+  * [🦈 MySQL](#nav_sec2_chapter1)
+  * [🐬 MariaDB](#nav_sec2_chapter2)
+  * [🐋 Percona Server](#nav_sec2_chapter3)
 
 <!--
   * [表格存储数据库](#nav_sec2_chapter1)
@@ -87,8 +87,8 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 <br/>
 <br/>
-
-# <h1 id="nav_sec2">🦈 关系型数据库</h1>
+ 
+# <h1 id="nav_sec2">🦩 关系型数据库</h1>
 
 关系型数据库，是指采用了关系模型来组织数据的数据库
 
@@ -96,7 +96,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 2. 通过SQL结构化查询语句存储数据。
 3. 强调ACID规则, 保持数据一致性。
 
-## <h2 id="nav_sec2_chapter1">MySQL</h2>
+## <h2 id="nav_sec2_chapter1">🦈 MySQL</h2>
 
 <div align=center>
   
@@ -354,7 +354,7 @@ No.|Title|Translate|Company
 
 <br/>
  
-## <h2 id="nav_sec2_chapter2">MariaDB</h2>
+## <h2 id="nav_sec2_chapter2">🐬 MariaDB</h2>
 
 MariaDB数据库管理系统是MySQL的一个分支，主要由开源社区在维护，采用GPL授权许可 MariaDB的目的是完全兼容MySQL，包括API和命令行，使之能轻松成为MySQL的代替品。<br/>
 在存储引擎方面，使用XtraDB来代替MySQL的InnoDB。<br/>
@@ -381,7 +381,7 @@ MariaDB直到5.5版本，均依照MySQL的版本。<br/>
  
 <br/>
  
-## <h2 id="nav_sec2_chapter3">Percona Server</h2>
+## <h2 id="nav_sec2_chapter3">🐋 Percona Server</h2>
 
 ### Percona Server项目
 Percona Server由领先的MySQL咨询公司Percona发布。<br/>
