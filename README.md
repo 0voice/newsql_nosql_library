@@ -113,13 +113,13 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 <!--
 ![image](https://user-images.githubusercontent.com/87458342/132217787-7570ad77-fb5a-499d-a0e3-70c69b08e506.png){:height="65%" width="65%"}
 -->
-<img src="https://user-images.githubusercontent.com/87458342/132217787-7570ad77-fb5a-499d-a0e3-70c69b08e506.png" width="80%" height="80%" />
+<img src="https://user-images.githubusercontent.com/87458342/132217787-7570ad77-fb5a-499d-a0e3-70c69b08e506.png" width="85%" height="85%" />
 
 #### <h4 id="nav_sec2_chp_01_2">MySQL架构图</h4>
 <!--
 ![image](https://user-images.githubusercontent.com/87458342/132278098-083884ad-5554-41c9-93ed-9d2f2d131da1.png){:height="50%" width="50%"}
 -->
-<img src="https://user-images.githubusercontent.com/87458342/132278098-083884ad-5554-41c9-93ed-9d2f2d131da1.png" width="90%" height="90%" />
+<img src="https://user-images.githubusercontent.com/87458342/132278098-083884ad-5554-41c9-93ed-9d2f2d131da1.png" width="70%" height="70%" />
 
 #### <h4 id="nav_sec2_chp_01_3">MySQL亿级订单数据分库分表设计架构图</h4>
 
