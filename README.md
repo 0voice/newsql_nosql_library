@@ -149,8 +149,6 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
  
 </div>
  
- 
-
 ### <h3 id="nav_sec2_chp_02">🔱 存储引擎</h3>
 
 #### <h4 id="nav_sec2_chp_02">MyISAM引擎</h4>
@@ -381,11 +379,21 @@ MariaDB直到5.5版本，均依照MySQL的版本。<br/>
 * [HeidiSQL](https://www.heidisql.com/) 一个Windows上自由和开放源码的MySQL客户端。它支持MariaDB的5.2.7版本和以后的版本。[5][6]
 * [phpMyAdmin](https://www.phpmyadmin.net/) 一个基于网络的MySQL数据库管理应用程序
  
-
 <br/>
  
 ## <h2 id="nav_sec2_chapter3">Percona Server</h2>
 
+### Percona Server项目
+Percona Server由领先的MySQL咨询公司Percona发布。<br/>
+Percona Server是一款独立的数据库产品，其可以完全与MySQL兼容，可以在不更改代码的情况了下将存储引擎更换成XtraDB。是最接近官方MySQL Enterprise发行版的版本。<br/>
+Percona提供了高性能XtraDB引擎，还提供PXC高可用解决方案，并且附带了percona-toolkit等DBA管理工具箱。<br/>
+Percona Server 只包含 MySQL 的服务器版，并没有提供相应对 MySQL 的 Connector 和 GUI 工具进行改进。<br/>
+Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query 对 MySQL 进行改造。<br/>
+ * [Percona Server项目地址](https://github.com/percona/percona-server)
+
+### MySQL，MariaDB，Percona Server如何选择
+综合多年使用经验和性能对比，首选Percona分支，其次是MariaDB，如果你不想冒一点风险，那就选择MYSQL官方版本。
+ 
 <br/>
 <br/>
 
