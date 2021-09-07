@@ -237,6 +237,16 @@ No.|Article|Translate
 No.|Title|Translate|Company
 :-------: | :--------------- | :------------|:---------------
 1|[《MySQL V5 - Ready forPrime Time Business Intelligence》](https://github.com/0voice/audio_video_streaming/blob/main/paper/ffmpeg/gg-paper.pdf)|MySQL V5 - 为黄金时段商业智能做好准备|
+2|[《TDSQL for MySQL Security White Paper Product Documentation》]()| |
+3|[《MONGODB VS MYSQL: A COMPARATIVE STUDY OF PERFORMANCE IN SUPER MARKET MANAGEMENT SYSTEM》]()| |
+4|[《Optimizing MySQL Database System on Information Systems Research , Publications and Community Service》]()| |
+5|[《A Comparative Study: MongoDB vs MySQL》]()| |
+6|[《Best Practices for Migrating MySQL Databases to Amazon Aurora》]()| |
+7|[《Comparative Performance Analysis of MySQL and SQL Server Relational Database Management Systems in Windows Environment》]()| |
+8|[《MySQL Cluster Internal Architecture》]()| |
+9|[《MySQL Database Service with HeatWave》]()| |
+10|[《Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases》]()| |
+11|[《Recovery Principles of MySQL Cluster 5.1》]()| |
  
 ### <h3 id="nav_sec2_chp_09">电子书籍</h3>
 
