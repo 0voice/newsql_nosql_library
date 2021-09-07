@@ -236,8 +236,8 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
  
 ### <h3 id="nav_sec2_chp_04">🛠 优化与架构</h3>
  
-* [MySQL架构图解]()
-* [MySQL架构体系]()
+* [MySQL体系结构和组件](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/优化与架构/MySQL体系结构和组件.md)
+* [MySQL架构体系](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/优化与架构/MySQL架构体系.md)
  
 ### <h3 id="nav_sec2_chp_05">📜 源码与配置参数</h3>
 
