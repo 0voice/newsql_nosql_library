@@ -109,10 +109,10 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 ### <h3 id="nav_sec2_chp_01">🌴 知识体系</h3>
 
 #### <h4 id="nav_sec2_chp_01_1">MySQL体系详解</h4>
-![image](https://user-images.githubusercontent.com/87458342/132217787-7570ad77-fb5a-499d-a0e3-70c69b08e506.png)
+![image](https://user-images.githubusercontent.com/87458342/132217787-7570ad77-fb5a-499d-a0e3-70c69b08e506.png){:height="90%" width="90%"}
 
 #### <h4 id="nav_sec2_chp_01_2">MySQL架构图</h4>
-![image](https://user-images.githubusercontent.com/87458342/132278098-083884ad-5554-41c9-93ed-9d2f2d131da1.png)
+![image](https://user-images.githubusercontent.com/87458342/132278098-083884ad-5554-41c9-93ed-9d2f2d131da1.png){:height="80%" width="80%"}
 
 #### <h4 id="nav_sec2_chp_01_3">MySQL亿级订单数据分库分表设计架构图</h4>
 ![image](https://user-images.githubusercontent.com/87458342/132295577-336360c2-3445-4fb2-b733-39477f416688.png)
