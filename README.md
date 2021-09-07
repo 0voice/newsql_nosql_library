@@ -115,8 +115,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 ![image](https://user-images.githubusercontent.com/87458342/132278098-083884ad-5554-41c9-93ed-9d2f2d131da1.png)
 
 #### <h4 id="nav_sec2_chp_01_3">MySQL亿级订单数据分库分表设计架构图</h4>
-![image](https://user-images.githubusercontent.com/87458342/132278685-d27df28b-ceef-4398-a36e-10f098cead44.png)
-
+![image](https://user-images.githubusercontent.com/87458342/132295577-336360c2-3445-4fb2-b733-39477f416688.png)
 
 ### <h3 id="nav_sec2_chp_02">存储引擎</h3>
 
@@ -203,7 +202,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 * MySQL5.7源码地址： [https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz](https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz)
 * MySQL8.0源码地址： [https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz)
-* [MySQL源码文件结构及主要数据结构]()
+* [MySQL源码文件结构及主要数据结构](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL源码文件结构及主要数据结构.md)
 * [MySQL5.7配置文件 my.ini 说明]()
 * [MySQL8.0配置文件 my.ini 说明]()
  
@@ -226,10 +225,21 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_07">文章</h3>
 
-No.|Article|Translate
+No.|Article|Author
 :------- |:--------------- |:---------------
-1|[MySQL远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)|远程客户端连接问题
-2|[亿级订单数据分库分表设计方案](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/亿级订单数据分库分表设计方案.md)|亿级订单数据分库分表设计方案
+1|[MySQL远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)|milo
+2|[亿级订单数据分库分表设计方案](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/亿级订单数据分库分表设计方案.md)|鑫语人间
+3|[数据库扩展性架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/数据库扩展性架构设计.md)|
+4|[分库分表需要考虑的问题及方案](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/分库分表需要考虑的问题及方案.md)|
+5|[无限容量数据库架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/无限容量数据库架构设计.md)|
+6|[MQ消息可达性+幂等性+延时性架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/MQ消息可达性+幂等性+延时性架构设计.md)|
+7|[高可用+高并发+负载均衡架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/高可用+高并发+负载均衡架构设计.md)|
+8|[数据库秒级平滑扩容架构方案](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/数据库秒级平滑扩容架构方案.md)|
+9|[100亿数据平滑数据迁移,不影响服务](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/100亿数据平滑数据迁移,不影响服务.md)|
+10|[一分钟掌握数据库垂直拆分](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/一分钟掌握数据库垂直拆分.md)|
+11|[5kw数据量,如何为表增加一列](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/5kw数据量,如何为表增加一列.md)|
+12|[互联网在线表结构变更](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/互联网在线表结构变更.md)|
+13|[58同城,1万属性100亿数据量数据库架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/58同城,1万属性100亿数据量数据库架构设计.md)|
  
 ### <h3 id="nav_sec2_chp_08">Paper</h3>
 
