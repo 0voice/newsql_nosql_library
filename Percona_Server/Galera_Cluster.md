@@ -1,6 +1,7 @@
 # Galera Cluster
 
-何谓Galera Cluster？就是集成了Galera插件的MySQL集群，是一种新型的，数据不共享的，高度冗余的高可用方案，目前Galera Cluster有两个版本，分别是Percona Xtradb Cluster（也成PXC）及MariaDB Cluster，都是基于Galera的，所以这里都统称为Galera Cluster了，因为Galera本身是具有多主特性的，所以Galera Cluster也就是multi-master的集群架构，如图`
+何谓Galera Cluster？就是集成了Galera插件的MySQL集群，是一种新型的，数据不共享的，高度冗余的高可用方案，目前Galera Cluster有两个版本，分别是Percona Xtradb Cluster（也成PXC）及MariaDB Cluster，都是基于Galera的，所以这里都统称为Galera Cluster了，因为Galera本身是具有多主特性的，所以Galera Cluster也就是multi-master的集群架构，如图
+![image](https://user-images.githubusercontent.com/87458342/132350016-c7a49ea4-fa97-46ff-9234-e963613d00b8.png)
 
 ## 1. 优点
 * 1. 真正的多主，群集随时读取和写入任何节点。
@@ -63,6 +64,9 @@ Galera复制是 用于应用程序集群的 高度透明和可扩展的同步复
 
 ### 5. 延迟橡皮擦
 借助WAN复制拓扑，群集节点可以放置在靠近客户端的位置，因此在本地节点连接下所有读写操作都将非常快。与RTT相关的延迟将仅在提交时经历，并且即使那时它也可以被最终用户普遍接受，通常，最终用户体验的杀戮在于缓慢的浏览响应时间，并且读取操作尽可能快。
+
+
+源于: [https://galeracluster.com/products/](https://galeracluster.com/products/)
 
 
 原文作者： whx@Flora
