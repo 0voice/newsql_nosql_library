@@ -21,30 +21,30 @@
 
 * [🦉 NoSQL数据库](#nav_sec3)
   * [键值(Key-Value)存储数据库](#nav_sec3_chapter1)
-    * [Redis](#nav_sec3_chapter1_01)
-    * [RocksDB](#nav_sec3_chapter1_01)
+    * [🐝 Redis](#nav_sec3_chapter1_01)
+    * [🦗 RocksDB](#nav_sec3_chapter1_01)
   * [列存储数据库](#nav_sec3_chapter2)
-    * [Cassandra](#nav_sec3_chapter2_01)
-    * [HBase](#nav_sec3_chapter2_02)
+    * [🦕 Cassandra](#nav_sec3_chapter2_01)
+    * [🦖 HBase](#nav_sec3_chapter2_02)
   * [文档型数据库](#nav_sec3_chapter3)
-    * [CouchDB](#nav_sec3_chapter3_01)
-    * [MongoDb](#nav_sec3_chapter3_02)
-    * [SequoiaDB](#nav_sec3_chapter3_03)
+    * [🦜 CouchDB](#nav_sec3_chapter3_01)
+    * [🦢 MongoDb](#nav_sec3_chapter3_02)
+    * [🦆 SequoiaDB](#nav_sec3_chapter3_03)
   * [图形(Graph)数据库](#nav_sec3_chapter4)
-    * [Neo4J](#nav_sec3_chapter4_01)
-    * [Infinite Graph](#nav_sec3_chapter4_02)
+    * [🐞 Neo4J](#nav_sec3_chapter4_01)
+    * [🕷 Infinite Graph](#nav_sec3_chapter4_02)
 * [🦊 NewSQL数据库](#nav_sec4)
   * [新架构](#nav_sec4_chapter1)
-    * [Google Spanner](#nav_sec4_chapter1_01)
-    * [VoltDB](#nav_sec4_chapter1_01)
+    * [🐟 Google Spanner](#nav_sec4_chapter1_01)
+    * [🐠 VoltDB](#nav_sec4_chapter1_01)
   * [SQL引擎](#nav_sec4_chapter2)
-    * [TokuDB](#nav_sec4_chapter2_01)
+    * [🦅 TokuDB](#nav_sec4_chapter2_01)
   * [透明分片](#nav_sec4_chapter3)
-    * [ScaleBase](#nav_sec4_chapter3_01)
+    * [🐢 ScaleBase](#nav_sec4_chapter3_01)
   * [分布式数据库](#nav_sec4_chapter4)
-    * [TiDB](#nav_sec4_chapter4_01)
-    * [Oceanbase](#nav_sec4_chapter4_02)
-    * [MemDB](#nav_sec4_chapter4_03)
+    * [🐪 TiDB](#nav_sec4_chapter4_01)
+    * [🐫 Oceanbase](#nav_sec4_chapter4_02)
+    * [🐐 MemDB](#nav_sec4_chapter4_03)
 
 <br/>
 <br/>
@@ -410,8 +410,8 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 * 优势： 快速查询
 * 劣势： 存储的数据缺少结构化
 
-### <h3 id="nav_sec3_chapter1_01">Redis</h3>
-### <h3 id="nav_sec3_chapter1_01">RocksDB</h3>
+### <h3 id="nav_sec3_chapter1_01">🐝 Redis</h3>
+### <h3 id="nav_sec3_chapter1_01">🦗 RocksDB</h3>
 
 ## <h2 id="nav_sec3_chapter2">列存储数据库</h2>
 
@@ -421,8 +421,8 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 * 优势：查找速度快，可扩展性强，更容易进行分布式扩展
 * 劣势：功能相对局限
                     
-### <h3 id="nav_sec3_chapter2_01">Cassandra</h3>
-### <h3 id="nav_sec3_chapter2_02">HBase</h3>
+### <h3 id="nav_sec3_chapter2_01">🦕 Cassandra</h3>
+### <h3 id="nav_sec3_chapter2_02">🦖 HBase</h3>
 
 ## <h2 id="nav_sec3_chapter3">文档型数据库</h2>
 
@@ -432,9 +432,9 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 * 优势：数据结构要求不严格
 * 劣势： 查询性能不高，而且缺乏统一的查询语法
 
-### <h3 id="nav_sec3_chapter3_01">CouchDB</h3>
-### <h3 id="nav_sec3_chapter3_02">MongoDb</h3>
-### <h3 id="nav_sec3_chapter3_03">SequoiaDB</h3>
+### <h3 id="nav_sec3_chapter3_01">🦜 CouchDB</h3>
+### <h3 id="nav_sec3_chapter3_02">🦢 MongoDb</h3>
+### <h3 id="nav_sec3_chapter3_03">🦆 SequoiaDB</h3>
  
 #### 产品架构
  
@@ -449,8 +449,8 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 * 优势：利用图结构相关算法。
 * 劣势：需要对整个图做计算才能得出结果，不容易做分布式的集群方案。
 
-### <h3 id="nav_sec3_chapter4_01">Neo4J</h3>
-### <h3 id="nav_sec3_chapter4_02">Infinite Graph</h3>
+### <h3 id="nav_sec3_chapter4_01">🐞 Neo4J</h3>
+### <h3 id="nav_sec3_chapter4_02">🕷 Infinite Graph</h3>
 
 <br/>
 <br/>
@@ -459,20 +459,21 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 
 ## <h2 id="nav_sec4_chapter1">新架构</h2>
 
-### <h3 id="nav_sec4_chapter1_01">Google Spanner</h3>
-### <h3 id="nav_sec4_chapter1_02">VoltDB</h3>
+### <h3 id="nav_sec4_chapter1_01">🐟 Google Spanner</h3>
+### <h3 id="nav_sec4_chapter1_02">🐠 VoltDB</h3>
 
 ## <h2 id="nav_sec4_chapter2">SQL引擎</h2>
 
-### <h3 id="nav_sec4_chapter2_01">TokuDB</h3>
+### <h3 id="nav_sec4_chapter2_01">🦅 TokuDB</h3>
 
 ## <h2 id="nav_sec4_chapter3">透明分片</h2>
 
-### <h3 id="nav_sec4_chapter3_01">ScaleBase</h3>
+### <h3 id="nav_sec4_chapter3_01">🐢 ScaleBase</h3>
 
 ## <h2 id="nav_sec4_chapter4">分布式数据库</h2>
 
-### <h3 id="nav_sec4_chapter4_01">TiDB</h3>
-### <h3 id="nav_sec4_chapter4_02">Oceanbase</h3>
-### <h3 id="nav_sec4_chapter4_03">MemDB</h3>
+### <h3 id="nav_sec4_chapter4_01">🐪 TiDB</h3>
+### <h3 id="nav_sec4_chapter4_02">🐫 Oceanbase</h3>
+### <h3 id="nav_sec4_chapter4_03">🐐 MemDB</h3>
+
 
