@@ -477,3 +477,31 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 ### <h3 id="nav_sec4_chapter4_03">🐐 MemDB</h3>
 
 
+
+<br/>
+<br/>
+
+-->
+
+<br/>
+
+## <h2 id="nav_9">🤝 鸣谢</h2>
+
+##### 为了让我们的repo内容更加的丰富，更加的专业。欢迎大家贡献patch，希望大家在issue里面出谋划策，我们期待你的加入。
+
+<a href="https://github.com/wangbojing">
+    <img src="https://avatars.githubusercontent.com/u/18027560?v=4" width="40px">
+</a> 
+
+<a href="https://github.com/ls-Brynn">
+    <img src="https://avatars.githubusercontent.com/u/87458342?v=4" width="40px">
+</a> 
+
+## 联系专栏
+
+#### 零声教育，专注于c/c++Linux后台服务器开发架构技术学习提升。<br>
+每天晚上8点【免费技术直播】：[分享Linux，Nginx，ZeroMQ，MySQL，Redis，fastdfs，MongoDB，ZK，流媒体，CDN，P2P，K8S，Docker，TCP/IP，协程，DPDK等技术内容，立即学习。](https://ke.qq.com/course/417774?flowToken=1037127)
+
+#### 关注微信公众号【后台服务架构师】——【联系我们】，获取本repo最全PDF学习文档！
+
+<img width="65%" height="65%" src="https://user-images.githubusercontent.com/87457873/130796999-03af3f54-3719-47b4-8e41-2e762ab1c68b.png"/>
