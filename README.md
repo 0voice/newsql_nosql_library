@@ -192,6 +192,8 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_03">面试题</h3>
 
+* [1. 能说下myisam 和 innodb的区别吗？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md)
+ 
 ### <h3 id="nav_sec2_chp_04">常见问题</h3>
 
 * [远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
