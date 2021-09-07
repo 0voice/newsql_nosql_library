@@ -444,6 +444,13 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
                     
 ### <h3 id="nav_sec3_chapter2_01">🦕 Cassandra</h3>
  
+Cassandra是开源分布式NoSQL数据库系统。用于储存收件箱等简单格式数据，集GoogleBigTable的数据模型与Amazon Dynamo的完全分布式的架构于一身，由于Cassandra良好的可扩展性，现在成为了一种流行的分布式结构化数据存储方案。是一个**网络社交云**计算方面理想的数据库。
+ 
+#### 特征
+* 分布式
+* 基于column的结构化
+* 高伸展性
+
 <br/>
  
 ### <h3 id="nav_sec3_chapter2_02">🦖 HBase</h3>
