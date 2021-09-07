@@ -73,3 +73,6 @@ enforce_storage_engine=InnoDB与wsrep_replicate_myisam=OFF（默认）不兼容 
 在群集模式下运行Percona XtraDB群集时，请避免工作量。如果未在所有节点上同步执行，则可能导致节点不一致。ALTER TABLE … IMPORT/EXPORT
 
 #### 所有表必须具有主键。 这样可以确保相同的行以相同的顺序出现在不同的节点上。DELETE没有主键的表不支持该语句。
+
+
+原文作者： whx@Flora
