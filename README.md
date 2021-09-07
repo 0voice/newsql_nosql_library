@@ -424,6 +424,14 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 
 ### <h3 id="nav_sec3_chapter1_01">🦗 RocksDB</h3>
  
+#### 特性：
+* 高性能： RocksDB使用一套日志结构的数据库引擎，为了更好的性能，这套引擎是用C++编写的。 Key和value是任意大小的字节流。
+* 为快速存储而优化： RocksDB为快速而又低延迟的存储设备（例如闪存或者高速硬盘）而特殊优化处理。 RocksDB将最大限度的发挥闪存和RAM的高度率读写性能。
+* 可适配性： RocksDB适合于多种不同工作量类型。 从像MyRocks这样的数据存储引擎， 到应用数据缓存, 甚至是一些嵌入式工作量，RocksDB都可以从容面对这些不同的数据工作量需求。
+* 基础和高级的数据库操作： RocksDB提供了一些基础的操作，例如打开和关闭数据库。 对于合并和压缩过滤等高级操作，也提供了读写支持。
+ 
+* [RocksDB官方网址](https://rocksdb.org.cn/)
+ 
 <br/>
  
 ## <h2 id="nav_sec3_chapter2">列存储数据库</h2>
@@ -435,6 +443,9 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 * 劣势：功能相对局限
                     
 ### <h3 id="nav_sec3_chapter2_01">🦕 Cassandra</h3>
+ 
+<br/>
+ 
 ### <h3 id="nav_sec3_chapter2_02">🦖 HBase</h3>
 
 <br/>
