@@ -255,7 +255,7 @@ No.|Title|Translate|Company
 [《MySQL》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL.pdf)|《MySQL》
 [《MySQL Notes For Professionals》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)|《MySQL专业指南》
 [《Intrusion Detection with SNORT: Using SNORT, Apache, MySQL, PHP, and ACID》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Intrusion_Detection_with_SNORT_Using_SNORT_Apache_MySQL_PHP_and_ACID.pdf)|《Snort入侵检测：使用Snort、Apache、MySQL、PHP和ACID》
-[《Mysql 从入门到精通》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql%20V2.3最终版.pdf)|《Mysql V2.3最终版》
+[《MySQL 从入门到精通》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql%20V2.3最终版.pdf)|《MySQL 从入门到精通》
 [《MySQL Workbench教程》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL%20workbench教程.pdf)|《MySQL Workbench教程》
 [《高性能MySQL_中文版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《高性能MySQL(中文版)》
 [《高性能MySQL(英文版)》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《高性能MySQL(英文版)》
