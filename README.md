@@ -108,7 +108,15 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_01">知识体系</h3>
 
+#### <h4 id="nav_sec2_chp_01_1">MySQL体系详解</h4>
 ![image](https://user-images.githubusercontent.com/87458342/132217787-7570ad77-fb5a-499d-a0e3-70c69b08e506.png)
+
+#### <h4 id="nav_sec2_chp_01_2">MySQL架构图</h4>
+![image](https://user-images.githubusercontent.com/87458342/132278098-083884ad-5554-41c9-93ed-9d2f2d131da1.png)
+
+#### <h4 id="nav_sec2_chp_01_3">MySQL亿级订单数据分库分表设计架构图</h4>
+![image](https://user-images.githubusercontent.com/87458342/132278685-d27df28b-ceef-4398-a36e-10f098cead44.png)
+
 
 ### <h3 id="nav_sec2_chp_02">存储引擎</h3>
 
@@ -219,7 +227,10 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 No.|Article|Translate
 :------- |:--------------- |:---------------
-1|[远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)|远程客户端连接问题
+1|[MySQL远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)|远程客户端连接问题
+2|亿级订单数据分库分表设计方案](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)|远程客户端连接问题
+
+ 
  
 ### <h3 id="nav_sec2_chp_08">Paper</h3>
 
@@ -286,6 +297,11 @@ No.|Title|Translate|Company
 ### <h3 id="nav_sec3_chapter3_01">CouchDB</h3>
 ### <h3 id="nav_sec3_chapter3_02">MongoDb</h3>
 ### <h3 id="nav_sec3_chapter3_03">SequoiaDB</h3>
+ 
+#### 产品架构
+ 
+![image](https://user-images.githubusercontent.com/87458342/132276817-dced5957-6d83-4439-be36-d44f2fe07003.png)
+
 
 ## <h2 id="nav_sec3_chapter4">图形(Graph)数据库</h2>
 
