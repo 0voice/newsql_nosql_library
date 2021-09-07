@@ -230,6 +230,9 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 * [35. key和index的区别？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_035)
 * [36. Mysql 中 MyISAM 和 InnoDB 的区别有哪些？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_036)
 * [37. 数据库表创建注意事项？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_037)
+* [38. MyISAM和InnoDB存储引擎使用的锁？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_037)
+* [39. 数据库一个大表如何优化？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_037)
+* [40. 如何理解字符集及校对规则？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_037)
  
  
 ### <h3 id="nav_sec2_chp_04">常见问题</h3>
