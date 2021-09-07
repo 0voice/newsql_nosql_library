@@ -192,7 +192,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 ### <h3 id="nav_sec2_chp_03">面试题</h3>
 
-* [1. 能说下myisam 和 innodb的区别吗？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md)
+* [1. 能说下myisam 和 innodb的区别吗？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_001)
  
 ### <h3 id="nav_sec2_chp_04">常见问题</h3>
 
@@ -210,7 +210,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
  
 ### <h3 id="nav_sec2_chp_06">视频教程</h3>
 
-* [MySQL不了解这些,好意思说搞懂了Mysql ](https://github.com/0voice/backend_video#nav_1_interview_009)
+* [MySQL不了解这些,好意思说搞懂了MySQL](https://github.com/0voice/backend_video#nav_1_interview_009)
 * [性能优化的方法论,异步的原理与实现，mysqlredis,dns, http，服务器并发 ]( https://github.com/0voice/backend_video#nav_1_high_performance_network_020)
 * [大厂面试，Mysql必问的问题 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_015)
 * [MySQL的块数据操作 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_021 )
