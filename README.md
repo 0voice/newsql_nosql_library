@@ -480,9 +480,6 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 
 <br/>
 <br/>
-
----
-
 <br/>
 
 ## <h2 id="nav_9">🤝 鸣谢</h2>
