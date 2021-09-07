@@ -357,7 +357,75 @@ No.|Title|Translate|Company
 <br/>
  
 ## <h2 id="nav_sec2_chapter2">MariaDB</h2>
+
+MariaDB数据库管理系统是MySQL的一个分支，主要由开源社区在维护，采用GPL授权许可 MariaDB的目的是完全兼容MySQL，包括API和命令行，使之能轻松成为MySQL的代替品。<br/>
+在存储引擎方面，使用XtraDB来代替MySQL的InnoDB。<br/>
+MariaDB基于事务的Maria存储引擎，替换了MySQL的MyISAM存储引擎。<br/>
+MariaDB直到5.5版本，均依照MySQL的版本。<br/>
+MariaDB项目地址：[https://github.com/MariaDB](https://github.com/MariaDB)
  
+### MySQ迁移到MariaDB
+ 
+从MySQL迁移到MariaDB非常简单：
+1. 数据和表定义文件（.frm）是二进制兼容的
+2. 所有客户端API、协议和结构都是完全一致的
+3. 所有文件名、二进制、路径、端口等都是一致的
+4. 所有的MySQL连接器，比如PHP、Perl、Python、Java、.NET、MyODBC、Ruby以及MySQL C connector等在MariaDB中都保持不变
+5. mysql-client包在MariaDB服务器中也能够正常运行
+6. 共享的客户端库与MySQL也是二进制兼容的
+也就是说，在大多数情况下，你完全可以卸载MySQL然后安装MariaDB，然后就可以像之前一样正常的运行。
+
+目前MariaDB是发展最快的MySQL分支版本，新版本发布速度已经超过了Oracle官方的MySQL版本。
+
+### MariaDB与MySQL比较
+
+#### MariaDB优势
+ 
+MariaDB与MySQL相比较，MariaDB更强的地方在于：
+* Maria 存储引擎
+* PBXT 存储引擎
+* XtraDB 存储引擎
+* FederatedX 存储引擎
+* 更快的复制查询处理
+* 线程池
+* 更少的警告和bug
+* 运行速度更快
+* 更多的 Extensions (More index parts, new startup options etc)
+* 更好的功能测试
+* 数据表消除
+* 慢查询日志的扩展统计
+* 支持对 Unicode 的排序
+
+#### MariaDB与MySQL比较]()
+* [MariaDB与MySQL特性比较](https://mariadb.com/kb/en/mariadb-vs-mysql-features/)
+* [MariaDB与MySQL兼容性比较](https://mariadb.com/kb/en/mariadb-vs-mysql-compatibility/)
+* [MariaDB各个发行版的异同](https://mariadb.com/kb/en/mariadb-releases/)
+* [MariaDB发行注记](https://mariadb.com/kb/en/release-notes/)
+ 
+### MariaDB与MySQL兼容性
+
+#### MariaDB是MySQL的二进制替代品
+
+MariaDB是同一MySQL版本的二进制替代品(例如MySQL 5.1->MariaDB 5.1, MariaDB5.2和MariaDB 5.3是兼容的。MySQL 5.5将会和MariaDB 5.5保持兼容)。这意味着：
+* 数据和表定义文件(.frm)文件是二进制兼容的。
+* 所有客户端APIs，协议和结构都是相同的。
+* 所有的文件名、二进制文件的路径、端口、套接字等等……应该是相同的。
+* 所有MySQL的连接器(PHP Python Perl Java .NET MyODBC Ruby MySQL C连接器等) 和MariaDB的不变。有一些和PHP5的安装问题要注意(一个和老的PHP5如何检查库兼容性的bug)。
+* mysql-client包还可以与MariaDB服务器一起工作。
+可以卸载MySQL再安装MariaDB，可以工作很好。(不需要转换成任何数据文件，如果使用同一主版本,比如5.1)。
+在脚本升级方面也做了大量的工作，从MySQL 5.0升级到MariaDB 5.1比从MySQL 5.0到MySQL 5.1更容易。
+ 
+### 第三方工具
+ 
+MariaDB的API和协议兼容MySQL，另外又添加了一些功能，以支持本地的非阻塞操作和进度报告。所有使用MySQL的连接器、库和应用程序也将会在MariaDB下工作。
+在此基础上，由于担心甲骨文MySQL的一个更加封闭的软件项目，Fedora，维基媒体基金会的服务器同样都使用MariaDB取代了MySQL。
+如下是支持MariaDB的客户端工具：
+* DBEdit 一个免费的MariaDB数据库和其他数据库管理应用程序。
+* Navicat 一系列Windows、Mac OS X、Linux下专有数据库管理应用程序。
+* HeidiSQL 一个Windows上自由和开放源码的MySQL客户端。它支持MariaDB的5.2.7版本和以后的版本。[5][6]
+* phpMyAdmin 一个基于网络的MySQL数据库管理应用程序
+ 
+
 <br/>
  
 ## <h2 id="nav_sec2_chapter3">Percona Server</h2>
