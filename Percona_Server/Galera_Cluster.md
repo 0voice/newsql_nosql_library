@@ -1,6 +1,6 @@
 # Galera Cluster
 
-何谓Galera Cluster？就是集成了Galera插件的MySQL集群，是一种新型的，数据不共享的，高度冗余的高可用方案，目前Galera Cluster有两个版本，分别是Percona Xtradb Cluster（也成PXC）及MariaDB Cluster，都是基于Galera的，所以这里都统称为Galera Cluster了，因为Galera本身是具有多主特性的，所以Galera Cluster也就是multi-master的集群架构，如图
+何谓Galera Cluster？就是集成了Galera插件的MySQL集群，是一种新型的，数据不共享的，高度冗余的高可用方案，目前Galera Cluster有两个版本，分别是Percona Xtradb Cluster（也成PXC）及MariaDB Cluster，都是基于Galera的，所以这里都统称为Galera Cluster了，因为Galera本身是具有多主特性的，所以Galera Cluster也就是multi-master的集群架构，如图<br/>
 ![image](https://user-images.githubusercontent.com/87458342/132350016-c7a49ea4-fa97-46ff-9234-e963613d00b8.png)
 
 ## 1. 优点
