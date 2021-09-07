@@ -100,7 +100,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 <div align=center>
   
-知识体系|存储引擎|面试题|常见问题|配置文件参数|视频教程|文章|Paper|电子书籍
+知识体系|存储引擎|面试题|常见问题|源码与配置参数|视频教程|文章|Paper|电子书籍
 :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
 [🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[📙](#nav_sec2_chp_09)
  
@@ -199,13 +199,14 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 * [库表设计问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/库表设计问题.md)
 * [慢SQL问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/慢SQL问题.md)
 
-### <h3 id="nav_sec2_chp_05">配置文件参数</h3>
+### <h3 id="nav_sec2_chp_05">源码与配置参数</h3>
 
-* [mysql5.7配置文件 my.ini 说明]()
-* [mysql8.0配置文件 my.ini 说明]()
-* Mysql5.7源码地址： [https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz](https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz)
-* Mysql8.0源码地址： [https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz)
-
+* MySQL5.7源码地址： [https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz](https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz)
+* MySQL8.0源码地址： [https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz)
+* [MySQL源码文件结构及主要数据结构]()
+* [MySQL5.7配置文件 my.ini 说明]()
+* [MySQL8.0配置文件 my.ini 说明]()
+ 
 ### <h3 id="nav_sec2_chp_06">视频教程</h3>
 
 * [MySQL不了解这些,好意思说搞懂了Mysql ](https://github.com/0voice/backend_video#nav_1_interview_009)
