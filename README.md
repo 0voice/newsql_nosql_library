@@ -100,13 +100,13 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 <div align=center>
   
-知识体系|存储引擎|面试题|常见问题|源码与配置参数|视频教程|文章|Paper|电子书籍
-:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
-[🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[📙](#nav_sec2_chp_09)
+知识体系|存储引擎|面试题|优化与架构|源码与配置参数|视频教程|文章|Paper|电子书籍|常见问题
+:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
+[🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[📙](#nav_sec2_chp_09)|[🧲](#nav_sec2_chp_10)
  
 </div>
 
-### <h3 id="nav_sec2_chp_01">知识体系</h3>
+### <h3 id="nav_sec2_chp_01">🌴 知识体系</h3>
 
 #### <h4 id="nav_sec2_chp_01_1">MySQL体系详解</h4>
 ![image](https://user-images.githubusercontent.com/87458342/132217787-7570ad77-fb5a-499d-a0e3-70c69b08e506.png)
@@ -117,7 +117,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 #### <h4 id="nav_sec2_chp_01_3">MySQL亿级订单数据分库分表设计架构图</h4>
 ![image](https://user-images.githubusercontent.com/87458342/132295577-336360c2-3445-4fb2-b733-39477f416688.png)
 
-### <h3 id="nav_sec2_chp_02">存储引擎</h3>
+### <h3 id="nav_sec2_chp_02">🔱 存储引擎</h3>
 
 #### <h4 id="nav_sec2_chp_02">MyISAM引擎</h4>
 
@@ -190,7 +190,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 * FEDERATED存储引擎把数据存在远程数据库中。在MySQL 5.1中，它只和MySQL一起工作，使用MySQL C Client API。在未来的分发版中，我们想要让它使用其它驱动器或客户端连接方法连接到另外的数据源。
 
-### <h3 id="nav_sec2_chp_03">面试题</h3>
+### <h3 id="nav_sec2_chp_03">⭕ 面试题</h3>
 
 * [1. 能说下myisam 和 innodb的区别吗？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_001)
 * [2. 说下mysql的索引有哪些吧，聚簇和非聚簇索引又是什么？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_002)
@@ -234,14 +234,12 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 * [39. 数据库一个大表如何优化？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_039)
 * [40. 如何理解字符集及校对规则？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_040)
  
+### <h3 id="nav_sec2_chp_04">🛠 优化与架构</h3>
  
-### <h3 id="nav_sec2_chp_04">常见问题</h3>
-
-* [远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
-* [库表设计问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/库表设计问题.md)
-* [慢SQL问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/慢SQL问题.md)
-
-### <h3 id="nav_sec2_chp_05">源码与配置参数</h3>
+* [MySQL架构图解]()
+* [MySQL架构体系]()
+ 
+### <h3 id="nav_sec2_chp_05">📜 源码与配置参数</h3>
 
 * MySQL5.7源码地址： [https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz](https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz)
 * MySQL8.0源码地址： [https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz)
@@ -249,7 +247,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 * [MySQL5.7配置文件 my.ini 说明](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL5.7配置文件%20my.ini%20说明.md)
 * [MySQL8.0配置文件 my.ini 说明](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL8.0配置文件%20my.ini%20说明.md)
  
-### <h3 id="nav_sec2_chp_06">视频教程</h3>
+### <h3 id="nav_sec2_chp_06">🧿 视频教程</h3>
 
 * [MySQL不了解这些,好意思说搞懂了MySQL](https://github.com/0voice/backend_video#nav_1_interview_009)
 * [性能优化的方法论,异步的原理与实现，mysqlredis,dns, http，服务器并发 ]( https://github.com/0voice/backend_video#nav_1_high_performance_network_020)
@@ -266,7 +264,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 * [—节课详尽讲解提升MySQL读写性能的方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_083 )
 * [高并发场景下,mysql与redis的数据同步方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_143)
 
-### <h3 id="nav_sec2_chp_07">文章</h3>
+### <h3 id="nav_sec2_chp_07">📄 文章</h3>
 
 No.|Article|Author
 :------- |:--------------- |:---------------
@@ -284,7 +282,7 @@ No.|Article|Author
 12|[互联网在线表结构变更](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/互联网在线表结构变更.md)|
 13|[58同城,1万属性100亿数据量数据库架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/58同城,1万属性100亿数据量数据库架构设计.md)|
  
-### <h3 id="nav_sec2_chp_08">Paper</h3>
+### <h3 id="nav_sec2_chp_08">🍀 Paper</h3>
 
 No.|Title|Translate|Company
 :-------: | :--------------- | :------------|:---------------
@@ -300,7 +298,7 @@ No.|Title|Translate|Company
 10|[《Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/10_Design_Considerations_for_High_Throughput_Cloud-Native_Relational_Databases.pdf)|Amazon Aurora：高通量云本地关系数据库的设计考虑 |
 11|[《Recovery Principles of MySQL Cluster 5.1》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/11_Recovery_Principles_of_MySQL_Cluster.pdf)|MySQL集群的恢复原理 |
 
-### <h3 id="nav_sec2_chp_09">电子书籍</h3>
+### <h3 id="nav_sec2_chp_09">📙 电子书籍</h3>
 
 书籍|翻译       
 :-----|:----------
@@ -316,9 +314,18 @@ No.|Title|Translate|Company
 [《MySQL技术内幕：SQL编程》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《MySQL技术内幕：SQL编程》
 [《MySQL技术内幕：InnoDB存储引擎 第二版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《MySQL技术内幕：InnoDB存储引擎 第二版》
  
+### <h3 id="nav_sec2_chp_10">🧲 常见问题</h3>
+
+* [远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
+* [库表设计问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/库表设计问题.md)
+* [慢SQL问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/慢SQL问题.md)
+
+<br/>
  
 ## <h2 id="nav_sec2_chapter2">MariaDB</h2>
-
+ 
+<br/>
+ 
 ## <h2 id="nav_sec2_chapter3">Percona Server</h2>
 
 <br/>
