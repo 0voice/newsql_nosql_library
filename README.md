@@ -411,8 +411,8 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 #### <h4 id="nav_sec3_chp_01_1">Redis知识体系图</h4>
 
 <div align=center>
-
-![image](https://user-images.githubusercontent.com/87458342/132474265-c7a893dc-37a0-4aef-89d7-c37ef5f3b318.png)
+ 
+<img src="https://user-images.githubusercontent.com/87458342/132483897-2fe31078-529a-43ec-9684-59b5ad484275.png" width="85%" height="85%" />
 <br/>
 Redis知识体系图
 
@@ -429,12 +429,11 @@ Redis知识体系图
 
 #### <h4 id="nav_sec3_chp_01_3">Redis集群方案（单副本）</h4>
 <div align=center>
- 
-![image](https://user-images.githubusercontent.com/87458342/132483021-f21ed53c-cb8c-470a-97cc-e5a2b8535f34.png)
+
+<img src="https://user-images.githubusercontent.com/87458342/132483021-f21ed53c-cb8c-470a-97cc-e5a2b8535f34.png" width="85%" height="85%" />
 <br/>
 Redis集群方案（单副本）
 
- 
 </div>
 
  
