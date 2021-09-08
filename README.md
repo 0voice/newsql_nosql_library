@@ -12,36 +12,18 @@
   * [🦈 MySQL](#nav_sec2_chapter1)
   * [🐬 MariaDB](#nav_sec2_chapter2)
   * [🐋 Percona Server](#nav_sec2_chapter3)
-
-<!--
-  * [表格存储数据库](#nav_sec2_chapter1)
-    * [MySQL](#nav_sec2_chapter1_01)
-    * [MariaDB](#nav_sec2_chapter1_02)
-    * [Percona Server](#nav_sec2_chapter1_03)
--->
-
 * [🦉 NoSQL数据库](#nav_sec3)
   * [键值(Key-Value)存储数据库](#nav_sec3_chapter1)
     * [🐝 Redis](#nav_sec3_chapter1_01)
     * [🦗 RocksDB](#nav_sec3_chapter1_02)
   * [列存储数据库](#nav_sec3_chapter2)
     * [🦕 Cassandra](#nav_sec3_chapter2_01)
-    * [🦖 HBase](#nav_sec3_chapter2_02)
   * [文档型数据库](#nav_sec3_chapter3)
     * [🦜 CouchDB](#nav_sec3_chapter3_01)
     * [🦢 MongoDb](#nav_sec3_chapter3_02)
-    * [🦆 SequoiaDB](#nav_sec3_chapter3_03)
-  * [图形(Graph)数据库](#nav_sec3_chapter4)
-    * [🐞 Neo4J](#nav_sec3_chapter4_01)
-    * [🕷 Infinite Graph](#nav_sec3_chapter4_02)
 * [🦊 NewSQL数据库](#nav_sec4)
-  * [新架构](#nav_sec4_chapter1)
-    * [🐟 Google Spanner](#nav_sec4_chapter1_01)
-    * [🐠 VoltDB](#nav_sec4_chapter1_01)
   * [SQL引擎](#nav_sec4_chapter2)
     * [🦅 TokuDB](#nav_sec4_chapter2_01)
-  * [透明分片](#nav_sec4_chapter3)
-    * [🐢 ScaleBase](#nav_sec4_chapter3_01)
   * [分布式数据库](#nav_sec4_chapter4)
     * [🐪 TiDB](#nav_sec4_chapter4_01)
     * [🐫 Oceanbase](#nav_sec4_chapter4_02)
@@ -578,10 +560,6 @@ Cassandra是开源分布式NoSQL数据库系统。用于储存收件箱等简单
 
 <br/>
  
-### <h3 id="nav_sec3_chapter2_02">🦖 HBase</h3>
-
-<br/>
- 
 ## <h2 id="nav_sec3_chapter3">文档型数据库</h2>
 
 * 相关产品：CouchDB、MongoDB、SequoiaDB
@@ -597,54 +575,22 @@ Cassandra是开源分布式NoSQL数据库系统。用于储存收件箱等简单
 ### <h3 id="nav_sec3_chapter3_02">🦢 MongoDb</h3>
  
 <br/>
- 
-### <h3 id="nav_sec3_chapter3_03">🦆 SequoiaDB</h3>
- 
+
 #### 产品架构
  
 ![image](https://user-images.githubusercontent.com/87458342/132276817-dced5957-6d83-4439-be36-d44f2fe07003.png)
 
 <br/>
  
-## <h2 id="nav_sec3_chapter4">图形(Graph)数据库</h2>
-
-* 相关数据库：Neo4J、Infinite Graph
-* 典型应用：社交网络
-* 数据模型：图结构
-* 优势：利用图结构相关算法。
-* 劣势：需要对整个图做计算才能得出结果，不容易做分布式的集群方案。
-
-### <h3 id="nav_sec3_chapter4_01">🐞 Neo4J</h3>
- 
-<br/>
- 
-### <h3 id="nav_sec3_chapter4_02">🕷 Infinite Graph</h3>
- 
 <br/>
 <br/>
 
 # <h1 id="nav_sec4">🦊 NewSQL数据库</h1>
-
-## <h2 id="nav_sec4_chapter1">新架构</h2>
-
-### <h3 id="nav_sec4_chapter1_01">🐟 Google Spanner</h3>
-
-<br/>
- 
-### <h3 id="nav_sec4_chapter1_02">🐠 VoltDB</h3>
-
-<br/>
  
 ## <h2 id="nav_sec4_chapter2">SQL引擎</h2>
 
 ### <h3 id="nav_sec4_chapter2_01">🦅 TokuDB</h3>
 
-<br/>
-
-## <h2 id="nav_sec4_chapter3">透明分片</h2>
-
-### <h3 id="nav_sec4_chapter3_01">🐢 ScaleBase</h3>
- 
 <br/>
  
 ## <h2 id="nav_sec4_chapter4">分布式数据库</h2>
