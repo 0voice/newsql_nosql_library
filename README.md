@@ -426,7 +426,15 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
  
 ### <h3 id="nav_sec3_chp_01">🌴 知识体系</h3>
  
-#### <h4 id="nav_sec3_chp_01_1">MySQL体系详解</h4>
+#### <h4 id="nav_sec3_chp_01_1">Redis知识体系图</h4>
+
+<div align=center>
+
+![image](https://user-images.githubusercontent.com/87458342/132474265-c7a893dc-37a0-4aef-89d7-c37ef5f3b318.png)
+<br/>
+Redis知识体系图
+
+</div>
 
 <div align=center>
 
