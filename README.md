@@ -23,7 +23,7 @@
 * [🦉 NoSQL数据库](#nav_sec3)
   * [键值(Key-Value)存储数据库](#nav_sec3_chapter1)
     * [🐝 Redis](#nav_sec3_chapter1_01)
-    * [🦗 RocksDB](#nav_sec3_chapter1_01)
+    * [🦗 RocksDB](#nav_sec3_chapter1_02)
   * [列存储数据库](#nav_sec3_chapter2)
     * [🦕 Cassandra](#nav_sec3_chapter2_01)
     * [🦖 HBase](#nav_sec3_chapter2_02)
@@ -424,16 +424,33 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 
 </div>
  
-### <h3 id="nav_sec2_chp_01">🌴 知识体系</h3>
-### <h3 id="nav_sec2_chp_02">🔱 存储引擎</h3>
-### <h3 id="nav_sec2_chp_03">⭕ 面试题</h3>
-### <h3 id="nav_sec2_chp_04">🛠 优化与架构</h3>
-### <h3 id="nav_sec2_chp_05">📜 源码与配置参数</h3>
+### <h3 id="nav_sec3_chp_01">🌴 知识体系</h3>
+ 
+#### <h4 id="nav_sec3_chp_01_1">MySQL体系详解</h4>
+
+<div align=center>
+
+![image](https://user-images.githubusercontent.com/87458342/132462677-6866a14c-cb5f-4c43-9798-644d342632f2.png)
+<br/>
+官方Redis Cluster 方案(服务端路由查询)
+ 
+</div>
+ 
+
+ 
+### <h3 id="nav_sec3_chp_02">🔱 存储引擎</h3>
+### <h3 id="nav_sec3_chp_03">⭕ 面试题</h3>
+ 
+ 
+ 
+ 
+### <h3 id="nav_sec3_chp_04">🛠 优化与架构</h3>
+### <h3 id="nav_sec3_chp_05">📜 源码与配置参数</h3>
  
 * [Redis-6.2.5.tar.gz](https://download.redis.io/releases/redis-6.2.5.tar.gz)
-* [Redis参数解释](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/源码与配置参数/Redis参数解释.md))
+* [Redis参数解释](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/源码与配置参数/Redis参数解释.md)
  
-### <h3 id="nav_sec2_chp_06">🧿 视频资源</h3>
+### <h3 id="nav_sec3_chp_06">🧿 视频资源</h3>
 
 * [Redis有序集合，跳表 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_011)
 * [性能优化的方法论,异步的原理与实现，mysqlredis,dns, http，服务器并发 ]( https://github.com/0voice/backend_video#nav_1_high_performance_network_020)
@@ -466,9 +483,9 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 * [高并发场景下,Mysql与Redis的数据同步方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_143)
 * [Redis是什么，用来做什么，要掌握到什么程度 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_185 )
 
+### <h3 id="nav_sec3_chp_07">📄 文章</h3>
  
-### <h3 id="nav_sec2_chp_07">📄 文章</h3>
-### <h3 id="nav_sec2_chp_08">🍀 Paper</h3>
+### <h3 id="nav_sec3_chp_08">🍀 Paper</h3>
  
 No.|Title|Translate|Company
 :-------: | :--------------- | :------------|:---------------
@@ -492,7 +509,7 @@ No.|Title|Translate|Company
 18|[《USING REDIS WITH SOURCEPRO DB》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/018-white-paper-sourcepro-db-redis.pdf) | 将REDIS与SOURCEPRO DB一起使用| 
 19|[《Redis on Samsung NVMe Benchmarking Results》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/019-WP-RedisLabs-Samsung-NVMe-Benchmark-103-Web-1.pdf) | 三星NVMe基准测试结果的Redis| 
  
-### <h3 id="nav_sec2_chp_09">📙 电子书籍</h3>
+### <h3 id="nav_sec3_chp_09">📙 电子书籍</h3>
 
 * [《Redis的主从复制》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis的主从复制.pdf)
 * [《Redis存储结构》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/redis-存储结构.pdf) 
@@ -514,13 +531,13 @@ No.|Title|Translate|Company
 * [《Redis cluster Specification (work in progress)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20cluster%20Specification%20(work%20in%20progress)%20–%20Redis.pdf) 
  
  
-### <h3 id="nav_sec2_chp_10">🧲 常见问题</h3>
+### <h3 id="nav_sec3_chp_10">🧲 常见问题</h3>
  
 
  
 <br/>
 
-### <h3 id="nav_sec3_chapter1_01">🦗 RocksDB</h3>
+### <h3 id="nav_sec3_chapter1_02">🦗 RocksDB</h3>
  
 #### 特性：
 * 高性能： RocksDB使用一套日志结构的数据库引擎，为了更好的性能，这套引擎是用C++编写的。 Key和value是任意大小的字节流。
