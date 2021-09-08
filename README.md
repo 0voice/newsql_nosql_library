@@ -267,8 +267,8 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 * MySQL5.7源码地址： [https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz](https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz)
 * MySQL8.0源码地址： [https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.19.tar.gz)
 * [MySQL源码文件结构及主要数据结构](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL源码文件结构及主要数据结构.md)
-* [MySQL5.7配置文件 my.ini 说明](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL5.7配置文件%20my.ini%20说明.md)
-* [MySQL8.0配置文件 my.ini 说明](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL8.0配置文件%20my.ini%20说明.md)
+* [MySQL5.7配置文件](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL5.7配置文件%20my.ini%20说明.md)
+* [MySQL8.0配置文件](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL8.0配置文件%20my.ini%20说明.md)
  
 ### <h3 id="nav_sec2_chp_06">🧿 视频资源</h3>
 
