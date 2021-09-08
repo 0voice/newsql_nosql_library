@@ -469,12 +469,12 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 No.|Title|Translate|Company
 :-------: | :--------------- | :------------|:---------------
 1|[《Implementing Information System Using MongoDB and Redis》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/001-Implementing-Information-System-Using-MongoDB-and-Redis.pdf)|利用MongoDB和Redis实现信息系统|
-2|[《15 Reasons to use Redis as an Application Cache》]| 使用Redis作为应用程序缓存的15个原因| 
-3|[《AMAZON ELASTICACHE》]|弹性评估 | 
-4|[《PLeveraging Django and Redis using Web Scraping》]|使用网页抓取对Django和Redis进行编辑 | 
-5|[《Cloud Native at the Edge: High-performance Edge Inference with RedisAI》]|边缘原生云：使用RedisAI进行高性能边缘推断 | 
-6|[《Contrail Architecture》]|轨迹结构 | 
-7|[《Database Caching Strategies Using Redis AWS Whitepaper》]|使用Redis AWS白皮书的数据库缓存策略 | 
+2|[《15 Reasons to use Redis as an Application Cache》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/) | 使用Redis作为应用程序缓存的15个原因| 
+3|[《AMAZON ELASTICACHE》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/) |弹性评估 | 
+4|[《PLeveraging Django and Redis using Web Scraping》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/) |使用网页抓取对Django和Redis进行编辑 | 
+5|[《Cloud Native at the Edge: High-performance Edge Inference with RedisAI》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/) |边缘原生云：使用RedisAI进行高性能边缘推断 | 
+6|[《Contrail Architecture》]() |轨迹结构 | 
+7|[《Database Caching Strategies Using Redis AWS Whitepaper》]() |使用Redis AWS白皮书的数据库缓存策略 | 
 8|[《Deploying a Highly Available Distributed Caching Layer on Oracle Cloud Infrastructure using Memcached & Redis》]|使用Memcached和Redis在Oracle云基础架构上部署高可用的分布式缓存层 | 
 9|[《Scaling Memcache at Facebook》]|在Facebook上扩展Memcache | 
 10|[《From advert to action: behavioural insights into the advertising of financial products》]|从广告到行动：金融产品广告的行为洞察 | 
