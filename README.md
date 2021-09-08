@@ -194,20 +194,7 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 
 #### <h4 id="nav_sec2_chp_02">其他引擎</h4>
 
-* MEMORY存储引擎提供"内存中"表。MERGE存储引擎允许集合将被处理同样的MyISAM表作为一个单独的表。就像MyISAM一样，MEMORY和MERGE存储引擎处理非事务表，这两个引擎也都被默认包含在MySQL中。
-注释：MEMORY存储引擎正式地被确定为HEAP引擎。
-
-* EXAMPLE存储引擎是一个"存根"引擎，它不做什么。你可以用这个引擎创建表，但没有数据被存储于其中或从其中检索。这个引擎的目的是服务，在 MySQL源代码中的一个例子，它演示说明如何开始编写新存储引擎。同样，它的主要兴趣是对开发者。
-
-* NDB Cluster是被MySQL Cluster用来实现分割到多台计算机上的表的存储引擎。它在MySQL-Max 5.1二进制分发版里提供。这个存储引擎当前只被Linux, Solaris, 和Mac OS X 支持。在未来的MySQL分发版中，我们想要添加其它平台对这个引擎的支持，包括Windows。
-
-* ARCHIVE存储引擎被用来无索引地，非常小地覆盖存储的大量数据。
-
-* CSV存储引擎把数据以逗号分隔的格式存储在文本文件中。
-
-* BLACKHOLE存储引擎接受但不存储数据，并且检索总是返回一个空集。
-
-* FEDERATED存储引擎把数据存在远程数据库中。在MySQL 5.1中，它只和MySQL一起工作，使用MySQL C Client API。在未来的分发版中，我们想要让它使用其它驱动器或客户端连接方法连接到另外的数据源。
+* [其他引擎](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/存储引擎/其他引擎.md)
 
 ### <h3 id="nav_sec2_chp_03">⭕ 面试题</h3>
 
