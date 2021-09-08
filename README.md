@@ -261,6 +261,7 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
  
 * [MySQL体系结构和组件](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/优化与架构/MySQL体系结构和组件.md)
 * [MySQL架构体系](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/优化与架构/MySQL架构体系.md)
+* [MYSQL调优策略](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/优化与架构/MYSQL调优策略.md)
  
 ### <h3 id="nav_sec2_chp_05">📜 源码与配置参数</h3>
 
