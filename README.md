@@ -429,6 +429,10 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 ### <h3 id="nav_sec2_chp_03">⭕ 面试题</h3>
 ### <h3 id="nav_sec2_chp_04">🛠 优化与架构</h3>
 ### <h3 id="nav_sec2_chp_05">📜 源码与配置参数</h3>
+ 
+* [Redis-6.2.5.tar.gz](https://download.redis.io/releases/redis-6.2.5.tar.gz)
+* [Redis参数解释](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/源码与配置参数/Redis参数解释.md))
+ 
 ### <h3 id="nav_sec2_chp_06">🧿 视频资源</h3>
 
 * [Redis有序集合，跳表 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_011)
