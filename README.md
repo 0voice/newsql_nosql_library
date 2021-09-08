@@ -469,24 +469,24 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 No.|Title|Translate|Company
 :-------: | :--------------- | :------------|:---------------
 1|[《Implementing Information System Using MongoDB and Redis》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/001-Implementing-Information-System-Using-MongoDB-and-Redis.pdf)|利用MongoDB和Redis实现信息系统|
-2|[《15 Reasons to use Redis as an Application Cache》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/) | 使用Redis作为应用程序缓存的15个原因| 
-3|[《AMAZON ELASTICACHE》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/) |弹性评估 | 
-4|[《PLeveraging Django and Redis using Web Scraping》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/) |使用网页抓取对Django和Redis进行编辑 | 
-5|[《Cloud Native at the Edge: High-performance Edge Inference with RedisAI》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/) |边缘原生云：使用RedisAI进行高性能边缘推断 | 
-6|[《Contrail Architecture》]() |轨迹结构 | 
-7|[《Database Caching Strategies Using Redis AWS Whitepaper》]() |使用Redis AWS白皮书的数据库缓存策略 | 
-8|[《Deploying a Highly Available Distributed Caching Layer on Oracle Cloud Infrastructure using Memcached & Redis》]|使用Memcached和Redis在Oracle云基础架构上部署高可用的分布式缓存层 | 
-9|[《Scaling Memcache at Facebook》]|在Facebook上扩展Memcache | 
-10|[《From advert to action: behavioural insights into the advertising of financial products》]|从广告到行动：金融产品广告的行为洞察 | 
-11|[《Persistent Memory Performance in vSphere 6.7》]|采用Intel Optane DC永久性内存的vSphere 6.7 | 
-12|[《Performance at Scale with Amazon ElastiCache》]|使用Amazon ElastiCache实现大规模性能 | 
-13|[《Redis Enterprise For Financial Services》]|Redis金融服务企业 | 
-14|[《Persisting Objects in Redis Key-Value Database》]|在Redis键值数据库中持久化对象 | 
-15|[《Break the Cost and Capacity Barrier with Intel® Optane™ DC Persistent Memory》]|使用Intel®Optane打破成本和容量壁垒™ DC持久存储器 | 
-16|[《Redistribution, Inequality,and Growth》]|再分配、不平等和增长 | 
-17|[《In-Memory Data processing using Redis Database》]|使用Redis数据库进行内存数据处理 | 
-18|[《USING REDIS WITH SOURCEPRO DB》]| 将REDIS与SOURCEPRO DB一起使用| 
-19|[《Redis on Samsung NVMe Benchmarking Results》]| 三星NVMe基准测试结果的Redis| 
+2|[《15 Reasons to use Redis as an Application Cache》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/002-15-Reasons-Caching-is-best-with-Redis-RedisLabs-1.pdf) | 使用Redis作为应用程序缓存的15个原因| 
+3|[《AMAZON ELASTICACHE》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/003-AMAZON-ELASTICACHE.pdf) |弹性评估 | 
+4|[《PLeveraging Django and Redis using Web Scraping》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/004-PLeveraging-Django-and-Redis-using-Web-Scraping.pdf) |使用网页抓取对Django和Redis进行编辑 | 
+5|[《Cloud Native at the Edge: High-performance Edge Inference with RedisAI》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/005-cloud-native-at-the-edge.pdf) |边缘原生云：使用RedisAI进行高性能边缘推断 | 
+6|[《Contrail Architecture》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/006-contrail-architecture.pdf) |轨迹结构 | 
+7|[《Database Caching Strategies Using Redis AWS Whitepaper》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/007-database-caching-strategies-using-redis.pdf) |使用Redis AWS白皮书的数据库缓存策略 | 
+8|[《Deploying a Highly Available Distributed Caching Layer on Oracle Cloud Infrastructure using Memcached & Redis》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/008-deploying-memcached-and-redis-on-oci.pdf) |使用Memcached和Redis在Oracle云基础架构上部署高可用的分布式缓存层 | 
+9|[《Scaling Memcache at Facebook》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/009-Scaling-Memcache-at-Facebook.pdf ) |在Facebook上扩展Memcache | 
+10|[《From advert to action: behavioural insights into the advertising of financial products》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/010-behavioural-insights-into-the-advertising-of-financial-products.pdf ) |从广告到行动：金融产品广告的行为洞察 | 
+11|[《Persistent Memory Performance in vSphere 6.7》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/011-optane-dc-pmem-vsphere67-perf.pdf) |采用Intel Optane DC永久性内存的vSphere 6.7 | 
+12|[《Performance at Scale with Amazon ElastiCache》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/012-performance-at-scale-with-amazon-elasticache.pdf) |使用Amazon ElastiCache实现大规模性能 | 
+13|[《Redis Enterprise For Financial Services》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/013-Redis-Enterprise-For-Financial-Services.pdf) |Redis金融服务企业 | 
+14|[《Persisting Objects in Redis Key-Value Database》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/014-Persisting-Objects-in-Redis-Key-Value-Database.pdf) |在Redis键值数据库中持久化对象 | 
+15|[《Break the Cost and Capacity Barrier with Intel® Optane™ DC Persistent Memory》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/015-redis-enterprise-brief.pdf) |使用Intel®Optane打破成本和容量壁垒™ DC持久存储器 | 
+16|[《Redistribution, Inequality,and Growth》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/016-Redistribution-Inequality-and-Growth.pdf) |再分配、不平等和增长 | 
+17|[《In-Memory Data processing using Redis Database》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/017-In-Memory-Data-processing-using-Redis-Database.pdf) |使用Redis数据库进行内存数据处理 | 
+18|[《USING REDIS WITH SOURCEPRO DB》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/018-white-paper-sourcepro-db-redis.pdf) | 将REDIS与SOURCEPRO DB一起使用| 
+19|[《Redis on Samsung NVMe Benchmarking Results》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/019-WP-RedisLabs-Samsung-NVMe-Benchmark-103-Web-1.pdf) | 三星NVMe基准测试结果的Redis| 
  
 ### <h3 id="nav_sec2_chp_09">📙 电子书籍</h3>
 
