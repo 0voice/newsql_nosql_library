@@ -478,7 +478,7 @@ No.|Title|Translate|Company
 8|[《Deploying a Highly Available Distributed Caching Layer on Oracle Cloud Infrastructure using Memcached & Redis》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/008-deploying-memcached-and-redis-on-oci.pdf) |使用Memcached和Redis在Oracle云基础架构上部署高可用的分布式缓存层 | 
 9|[《Scaling Memcache at Facebook》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/009-Scaling-Memcache-at-Facebook.pdf ) |在Facebook上扩展Memcache | 
 10|[《From advert to action: behavioural insights into the advertising of financial products》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/010-behavioural-insights-into-the-advertising-of-financial-products.pdf ) |从广告到行动：金融产品广告的行为洞察 | 
-11|[《Persistent Memory Performance in vSphere 6.7》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/011-optane-dc-pmem-vsphere67-perf.pdf) |采用Intel Optane DC永久性内存的vSphere 6.7 | 
+11|[《Persistent Memory Performance in vSphere 6.7》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/011-optane-dc-pmem-vsphere67-perf.pdf) |vSphere 6.7中的持久内存性能 | 
 12|[《Performance at Scale with Amazon ElastiCache》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/012-performance-at-scale-with-amazon-elasticache.pdf) |使用Amazon ElastiCache实现大规模性能 | 
 13|[《Redis Enterprise For Financial Services》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/013-Redis-Enterprise-For-Financial-Services.pdf) |Redis金融服务企业 | 
 14|[《Persisting Objects in Redis Key-Value Database》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/014-Persisting-Objects-in-Redis-Key-Value-Database.pdf) |在Redis键值数据库中持久化对象 | 
