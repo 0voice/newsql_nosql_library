@@ -143,6 +143,7 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 #### MyISAM索引实现
 
 <div align=center>
+ 
 * MyISAM引擎使用B+Tree作为索引结构，叶节点的data域存放的是数据记录的地址。
 <img src="https://user-images.githubusercontent.com/87458342/132510902-a7b1c417-c3ee-4b67-8f09-65c0d2327816.png" width="65%" height="65%" />
  
@@ -188,6 +189,7 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 #### InnoDB索引实现
 
 <div align=center>
+ 
 * InnoDB也使用B+Tree作为索引结构，但具体实现方式却与MyISAM截然不同。叶节点保存了完整的数据记录（数据和索引）。
 <img src="https://user-images.githubusercontent.com/87458342/132511072-def8b581-0417-4ef0-88f0-d56a16838fa7.png" width="65%" height="65%" />
  
