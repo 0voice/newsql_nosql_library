@@ -144,8 +144,8 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 
 <div align=center>
 
-<img src="https://user-images.githubusercontent.com/87458342/132510902-a7b1c417-c3ee-4b67-8f09-65c0d2327816.png" width="85%" height="85%" />
-<img src="https://user-images.githubusercontent.com/87458342/132510942-355ac9b8-529f-4efb-a321-bb9e74fa3168.png" width="85%" height="85%" />
+<img src="https://user-images.githubusercontent.com/87458342/132510902-a7b1c417-c3ee-4b67-8f09-65c0d2327816.png" width="65%" height="65%" />
+<img src="https://user-images.githubusercontent.com/87458342/132510942-355ac9b8-529f-4efb-a321-bb9e74fa3168.png" width="65%" height="65%" />
 
 </div>
 
@@ -187,8 +187,8 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 
 <div align=center>
 
-<img src="https://user-images.githubusercontent.com/87458342/132511072-def8b581-0417-4ef0-88f0-d56a16838fa7.png" width="85%" height="85%" />
-<img src="https://user-images.githubusercontent.com/87458342/132511081-b0fd2478-6672-4468-b5e8-8b82dfa46c2b.png" width="85%" height="85%" />
+<img src="https://user-images.githubusercontent.com/87458342/132511072-def8b581-0417-4ef0-88f0-d56a16838fa7.png" width="65%" height="65%" />
+<img src="https://user-images.githubusercontent.com/87458342/132511081-b0fd2478-6672-4468-b5e8-8b82dfa46c2b.png" width="65%" height="65%" />
 
 </div>
 
