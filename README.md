@@ -418,6 +418,7 @@ Redis知识体系图
 
 </div>
 
+#### <h4 id="nav_sec3_chp_01_2">Redis Cluster方案图</h4>
 <div align=center>
 
 ![image](https://user-images.githubusercontent.com/87458342/132462677-6866a14c-cb5f-4c43-9798-644d342632f2.png)
@@ -425,7 +426,16 @@ Redis知识体系图
 官方Redis Cluster 方案(服务端路由查询)
  
 </div>
+
+#### <h4 id="nav_sec3_chp_01_3">Redis集群方案（单副本）</h4>
+<div align=center>
  
+![image](https://user-images.githubusercontent.com/87458342/132483021-f21ed53c-cb8c-470a-97cc-e5a2b8535f34.png
+<br/>
+Redis集群方案（单副本）
+
+ 
+</div>
 
  
 ### <h3 id="nav_sec3_chp_02">🔱 存储引擎</h3>
