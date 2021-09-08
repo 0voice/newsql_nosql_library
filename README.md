@@ -83,9 +83,9 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 <div align=center>
   
-知识体系|存储引擎|面试题|优化与架构|源码与配置参数|视频资源|文章|Paper|电子书籍|常见问题
+知识体系|存储引擎|面试题|优化与架构|源码与配置参数|视频资源|文章与电子书籍|Paper|集群架构|常见问题
 :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
-[🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[📙](#nav_sec2_chp_09)|[🧲](#nav_sec2_chp_10)
+[🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[⚒](#nav_sec2_chp_09)|[🧲](#nav_sec2_chp_10)
  
 </div>
 
@@ -282,8 +282,10 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 * [—节课详尽讲解提升MySQL读写性能的方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_083 )
 * [高并发场景下,mysql与redis的数据同步方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_143)
 
-### <h3 id="nav_sec2_chp_07">📄 文章</h3>
+### <h3 id="nav_sec2_chp_07">📄 文章与电子书籍</h3>
 
+#### <h4 id="nav_sec2_chp_07_1">文章</h4>
+ 
 No.|Article|Author
 :------- |:--------------- |:---------------
 1|[MySQL远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)|milo
@@ -299,6 +301,22 @@ No.|Article|Author
 11|[5kw数据量,如何为表增加一列](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/5kw数据量,如何为表增加一列.md)|
 12|[互联网在线表结构变更](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/互联网在线表结构变更.md)|
 13|[58同城,1万属性100亿数据量数据库架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/58同城,1万属性100亿数据量数据库架构设计.md)|
+ 
+#### <h4 id="nav_sec2_chp_07_2">电子书籍</h4>
+ 
+ 书籍|翻译       
+:-----|:----------
+[《MySQL 5.7 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-5.7-en/)|《MySQL 5.7参考手册》
+[《MySQL 8.0 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/)|《MySQL 8.0参考手册》
+[《MySQL》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL.pdf)|《MySQL》
+[《MySQL Notes For Professionals》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)|《MySQL专业指南》
+[《Intrusion Detection with SNORT: Using SNORT, Apache, MySQL, PHP, and ACID》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Intrusion_Detection_with_SNORT_Using_SNORT_Apache_MySQL_PHP_and_ACID.pdf)|《Snort入侵检测：使用Snort、Apache、MySQL、PHP和ACID》
+[《MySQL 从入门到精通》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql%20V2.3最终版.pdf)|《MySQL 从入门到精通》
+[《MySQL Workbench教程》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL%20workbench教程.pdf)|《MySQL Workbench教程》
+[《高性能MySQL_中文版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《高性能MySQL(中文版)》
+[《高性能MySQL(英文版)》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《高性能MySQL(英文版)》
+[《MySQL技术内幕：SQL编程》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《MySQL技术内幕：SQL编程》
+[《MySQL技术内幕：InnoDB存储引擎 第二版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《MySQL技术内幕：InnoDB存储引擎 第二版》
  
 ### <h3 id="nav_sec2_chp_08">🍀 Paper</h3>
 
@@ -316,22 +334,9 @@ No.|Title|Translate|Company
 10|[《Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/10_Design_Considerations_for_High_Throughput_Cloud-Native_Relational_Databases.pdf) |Amazon Aurora：高通量云本地关系数据库的设计考虑 |
 11|[《Recovery Principles of MySQL Cluster 5.1》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/paper/11_Recovery_Principles_of_MySQL_Cluster.pdf) |MySQL集群的恢复原理 |
 
-### <h3 id="nav_sec2_chp_09">📙 电子书籍</h3>
+### <h3 id="nav_sec2_chp_09">⚒ 集群架构</h3>
 
-书籍|翻译       
-:-----|:----------
-[《MySQL 5.7 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-5.7-en/)|《MySQL 5.7参考手册》
-[《MySQL 8.0 Reference Manual》](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/)|《MySQL 8.0参考手册》
-[《MySQL》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL.pdf)|《MySQL》
-[《MySQL Notes For Professionals》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL_Notes_For_Professionals.pdf)|《MySQL专业指南》
-[《Intrusion Detection with SNORT: Using SNORT, Apache, MySQL, PHP, and ACID》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Intrusion_Detection_with_SNORT_Using_SNORT_Apache_MySQL_PHP_and_ACID.pdf)|《Snort入侵检测：使用Snort、Apache、MySQL、PHP和ACID》
-[《MySQL 从入门到精通》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/Mysql%20V2.3最终版.pdf)|《MySQL 从入门到精通》
-[《MySQL Workbench教程》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/MySQL%20workbench教程.pdf)|《MySQL Workbench教程》
-[《高性能MySQL_中文版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《高性能MySQL(中文版)》
-[《高性能MySQL(英文版)》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《高性能MySQL(英文版)》
-[《MySQL技术内幕：SQL编程》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《MySQL技术内幕：SQL编程》
-[《MySQL技术内幕：InnoDB存储引擎 第二版》](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/电子书/高性能MySQL_英文版.pdf)|《MySQL技术内幕：InnoDB存储引擎 第二版》
- 
+
 ### <h3 id="nav_sec2_chp_10">🧲 常见问题</h3>
 
 * [远程客户端连接问题](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/常见问题/远程客户端连接问题.md)
@@ -400,9 +405,9 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 
 <div align=center>
   
-知识体系|存储引擎|面试题|优化与架构|源码与配置参数|视频资源|文章|Paper|电子书籍|常见问题
+知识体系|数据类型|面试题|优化与架构|源码与配置参数|视频资源|文章与电子书籍|Paper|集群架构|常见问题
 :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
-[🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[📙](#nav_sec2_chp_09)|[🧲](#nav_sec2_chp_10)
+[🌴](#nav_sec2_chp_01)|[♨](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[⚒](#nav_sec2_chp_09)|[🧲](#nav_sec2_chp_10)
 
 </div>
  
@@ -437,7 +442,10 @@ Redis集群方案（单副本）
 </div>
 
  
-### <h3 id="nav_sec3_chp_02">🔱 存储引擎</h3>
+### <h3 id="nav_sec3_chp_02">♨ 数据类型</h3>
+ 
+
+ 
 ### <h3 id="nav_sec3_chp_03">⭕ 面试题</h3>
  
  
@@ -482,7 +490,29 @@ Redis集群方案（单副本）
 * [高并发场景下,Mysql与Redis的数据同步方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_143)
 * [Redis是什么，用来做什么，要掌握到什么程度 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_185 )
 
-### <h3 id="nav_sec3_chp_07">📄 文章</h3>
+### <h3 id="nav_sec3_chp_07">📄 文章与电子书籍</h3>
+
+#### <h4 id="nav_sec3_chp_07_1">文章</h4>
+ 
+#### <h4 id="nav_sec3_chp_07_2">电子书籍</h4>
+* [《Redis的主从复制》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis的主从复制.pdf)
+* [《Redis存储结构》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/redis-存储结构.pdf) 
+* [《Redis实现分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20实现分析.pdf) 
+* [《Redis与网站架构》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis与网站架构.pdf) 
+* [《Redis入门指南(第2版)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis入门指南(第2版).pdf) 
+* [《Redis在京东到家的订单中的使用》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis在京东到家的订单中的使用.pdf) 
+* [《Redis实战》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis实战.pdf) 
+* [《Redis原代码分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis原代码分析.pdf) 
+* [《Redis实现分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis实现分析.pdf) 
+* [《Redis集群》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis集群.pdf) 
+* [《Redis大数据之路》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/redis大数据之路.pdf) 
+* [《深入了解Redis》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/深入了解redis.pdf) 
+* [《大厂Redis面试，你能get到几个点》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/大厂redis面试，你能get到几个点.pdf) 
+* [《新浪微博Redis优化历程》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/新浪微博redis优化历程.pdf) 
+* [《Redis 多机特性工作原理简介》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20多机特性工作原理简介.pdf) 
+* [《Redis设计与实现(第二版)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis设计与实现(第二版).pdf) 
+* [《Redis编程发布与订阅》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis编程_发布与订阅.pdf) 
+* [《Redis cluster Specification (work in progress)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20cluster%20Specification%20(work%20in%20progress)%20–%20Redis.pdf) 
  
 ### <h3 id="nav_sec3_chp_08">🍀 Paper</h3>
  
@@ -508,26 +538,9 @@ No.|Title|Translate|Company
 18|[《USING REDIS WITH SOURCEPRO DB》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/018-white-paper-sourcepro-db-redis.pdf) | 将REDIS与SOURCEPRO DB一起使用| 
 19|[《Redis on Samsung NVMe Benchmarking Results》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/019-WP-RedisLabs-Samsung-NVMe-Benchmark-103-Web-1.pdf) | 三星NVMe基准测试结果的Redis| 
  
-### <h3 id="nav_sec3_chp_09">📙 电子书籍</h3>
+### <h3 id="nav_sec3_chp_09">⚒ 集群架构</h3>
 
-* [《Redis的主从复制》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis的主从复制.pdf)
-* [《Redis存储结构》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/redis-存储结构.pdf) 
-* [《Redis实现分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20实现分析.pdf) 
-* [《Redis与网站架构》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis与网站架构.pdf) 
-* [《Redis入门指南(第2版)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis入门指南(第2版).pdf) 
-* [《Redis在京东到家的订单中的使用》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis在京东到家的订单中的使用.pdf) 
-* [《Redis实战》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis实战.pdf) 
-* [《Redis原代码分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis原代码分析.pdf) 
-* [《Redis实现分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis实现分析.pdf) 
-* [《Redis集群》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis集群.pdf) 
-* [《Redis大数据之路》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/redis大数据之路.pdf) 
-* [《深入了解Redis》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/深入了解redis.pdf) 
-* [《大厂Redis面试，你能get到几个点》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/大厂redis面试，你能get到几个点.pdf) 
-* [《新浪微博Redis优化历程》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/新浪微博redis优化历程.pdf) 
-* [《Redis 多机特性工作原理简介》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20多机特性工作原理简介.pdf) 
-* [《Redis设计与实现(第二版)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis设计与实现(第二版).pdf) 
-* [《Redis编程发布与订阅》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis编程_发布与订阅.pdf) 
-* [《Redis cluster Specification (work in progress)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20cluster%20Specification%20(work%20in%20progress)%20–%20Redis.pdf) 
+
  
  
 ### <h3 id="nav_sec3_chp_10">🧲 常见问题</h3>
