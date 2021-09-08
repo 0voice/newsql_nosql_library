@@ -83,9 +83,9 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 <div align=center>
   
-知识体系|存储引擎|面试题|优化与架构|源码与配置参数|视频资源|文章与电子书籍|Paper|集群架构|常见问题
+知识体系|存储引擎|面试题|优化与集群架构|源码与配置参数|视频资源|文章|Paper|电子书籍|常见问题
 :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
-[🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[⚒](#nav_sec2_chp_09)|[🧲](#nav_sec2_chp_10)
+[🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[📙](#nav_sec2_chp_09)|[🧲](#nav_sec2_chp_10)
  
 </div>
 
@@ -252,7 +252,7 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 * [39. 数据库一个大表如何优化？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_039)
 * [40. 如何理解字符集及校对规则？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_040)
  
-### <h3 id="nav_sec2_chp_04">🛠 优化与架构</h3>
+### <h3 id="nav_sec2_chp_04">🛠 优化与集群架构</h3>
  
 * [MySQL体系结构和组件](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/优化与架构/MySQL体系结构和组件.md)
 * [MySQL架构体系](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/优化与架构/MySQL架构体系.md)
@@ -282,9 +282,7 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 * [—节课详尽讲解提升MySQL读写性能的方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_083 )
 * [高并发场景下,mysql与redis的数据同步方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_143)
 
-### <h3 id="nav_sec2_chp_07">📄 文章与电子书籍</h3>
-
-#### <h4 id="nav_sec2_chp_07_1">文章</h4>
+### <h3 id="nav_sec2_chp_07">📄 文章</h3>
  
 No.|Article|Author
 :------- |:--------------- |:---------------
@@ -302,7 +300,7 @@ No.|Article|Author
 12|[互联网在线表结构变更](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/互联网在线表结构变更.md)|
 13|[58同城,1万属性100亿数据量数据库架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/58同城,1万属性100亿数据量数据库架构设计.md)|
  
-#### <h4 id="nav_sec2_chp_07_2">电子书籍</h4>
+#### <h4 id="nav_sec2_chp_07_2">📙 电子书籍</h4>
  
  书籍|翻译       
 :-----|:----------
@@ -405,9 +403,9 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 
 <div align=center>
   
-知识体系|数据类型|面试题|优化与架构|源码与配置参数|视频资源|文章与电子书籍|Paper|集群架构|常见问题
+知识体系|数据类型|面试题|优化与集群架构|源码与配置参数|视频资源|文章|Paper|电子书籍|常见问题
 :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
-[🌴](#nav_sec3_chp_01)|[♨](#nav_sec3_chp_02)|[⭕](#nav_sec3_chp_03) |[🛠](#nav_sec3_chp_04)|[📜](#nav_sec3_chp_05)|[🧿](#nav_sec3_chp_06)|[📄](#nav_sec3_chp_07)|[🍀](#nav_sec3_chp_08)|[⚒](#nav_sec3_chp_09)|[🧲](#nav_sec3_chp_10)
+[🌴](#nav_sec3_chp_01)|[♨](#nav_sec3_chp_02)|[⭕](#nav_sec3_chp_03) |[🛠](#nav_sec3_chp_04)|[📜](#nav_sec3_chp_05)|[🧿](#nav_sec3_chp_06)|[📄](#nav_sec3_chp_07)|[🍀](#nav_sec3_chp_08)|[📙](#nav_sec3_chp_09)|[🧲](#nav_sec3_chp_10)
 
 </div>
  
@@ -451,7 +449,14 @@ Redis集群方案（单副本）
  
  
  
-### <h3 id="nav_sec3_chp_04">🛠 优化与架构</h3>
+### <h3 id="nav_sec3_chp_04">🛠 优化与集群架构</h3>
+ 
+#### <h4 id="nav_sec3_chp_09_1">Redis集群方式</h4>
+ 
+* [Redis主从复制](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/集群架构/Redis主从复制.md)
+* [Redis哨兵模式](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/集群架构/Redis哨兵模式.md)
+* [Redis分片模式](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/集群架构/Redis分片模式.md)
+ 
 ### <h3 id="nav_sec3_chp_05">📜 源码与配置参数</h3>
  
 * [Redis-6.2.5.tar.gz](https://download.redis.io/releases/redis-6.2.5.tar.gz)
@@ -490,29 +495,7 @@ Redis集群方案（单副本）
 * [高并发场景下,Mysql与Redis的数据同步方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_143)
 * [Redis是什么，用来做什么，要掌握到什么程度 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_185 )
 
-### <h3 id="nav_sec3_chp_07">📄 文章与电子书籍</h3>
-
-#### <h4 id="nav_sec3_chp_07_1">文章</h4>
- 
-#### <h4 id="nav_sec3_chp_07_2">电子书籍</h4>
-* [《Redis的主从复制》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis的主从复制.pdf)
-* [《Redis存储结构》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/redis-存储结构.pdf) 
-* [《Redis实现分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20实现分析.pdf) 
-* [《Redis与网站架构》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis与网站架构.pdf) 
-* [《Redis入门指南(第2版)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis入门指南(第2版).pdf) 
-* [《Redis在京东到家的订单中的使用》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis在京东到家的订单中的使用.pdf) 
-* [《Redis实战》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis实战.pdf) 
-* [《Redis原代码分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis原代码分析.pdf) 
-* [《Redis实现分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis实现分析.pdf) 
-* [《Redis集群》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis集群.pdf) 
-* [《Redis大数据之路》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/redis大数据之路.pdf) 
-* [《深入了解Redis》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/深入了解redis.pdf) 
-* [《大厂Redis面试，你能get到几个点》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/大厂redis面试，你能get到几个点.pdf) 
-* [《新浪微博Redis优化历程》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/新浪微博redis优化历程.pdf) 
-* [《Redis 多机特性工作原理简介》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20多机特性工作原理简介.pdf) 
-* [《Redis设计与实现(第二版)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis设计与实现(第二版).pdf) 
-* [《Redis编程发布与订阅》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis编程_发布与订阅.pdf) 
-* [《Redis cluster Specification (work in progress)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20cluster%20Specification%20(work%20in%20progress)%20–%20Redis.pdf) 
+### <h3 id="nav_sec3_chp_07">📄 文章</h3>
  
 ### <h3 id="nav_sec3_chp_08">🍀 Paper</h3>
  
@@ -538,13 +521,26 @@ No.|Title|Translate|Company
 18|[《USING REDIS WITH SOURCEPRO DB》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/018-white-paper-sourcepro-db-redis.pdf) | 将REDIS与SOURCEPRO DB一起使用| 
 19|[《Redis on Samsung NVMe Benchmarking Results》](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/paper/019-WP-RedisLabs-Samsung-NVMe-Benchmark-103-Web-1.pdf) | 三星NVMe基准测试结果的Redis| 
  
-### <h3 id="nav_sec3_chp_09">⚒ 集群架构</h3>
-
-#### <h4 id="nav_sec3_chp_09_1">Redis集群方式</h4>
+### <h3 id="nav_sec3_chp_09">📙 电子书籍</h3>
  
-* [Redis主从复制](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/集群架构/Redis主从复制.md)
-* [Redis哨兵模式](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/集群架构/Redis哨兵模式.md)
-* [Redis分片模式](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/集群架构/Redis分片模式.md)
+* [《Redis的主从复制》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis的主从复制.pdf)
+* [《Redis存储结构》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/redis-存储结构.pdf) 
+* [《Redis实现分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20实现分析.pdf) 
+* [《Redis与网站架构》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis与网站架构.pdf) 
+* [《Redis入门指南(第2版)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis入门指南(第2版).pdf) 
+* [《Redis在京东到家的订单中的使用》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis在京东到家的订单中的使用.pdf) 
+* [《Redis实战》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis实战.pdf) 
+* [《Redis原代码分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis原代码分析.pdf) 
+* [《Redis实现分析》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis实现分析.pdf) 
+* [《Redis集群》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis集群.pdf) 
+* [《Redis大数据之路》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/redis大数据之路.pdf) 
+* [《深入了解Redis》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/深入了解redis.pdf) 
+* [《大厂Redis面试，你能get到几个点》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/大厂redis面试，你能get到几个点.pdf) 
+* [《新浪微博Redis优化历程》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/新浪微博redis优化历程.pdf) 
+* [《Redis 多机特性工作原理简介》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20多机特性工作原理简介.pdf) 
+* [《Redis设计与实现(第二版)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis设计与实现(第二版).pdf) 
+* [《Redis编程发布与订阅》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis编程_发布与订阅.pdf) 
+* [《Redis cluster Specification (work in progress)》](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/电子书/Redis%20cluster%20Specification%20(work%20in%20progress)%20–%20Redis.pdf) 
  
 ### <h3 id="nav_sec3_chp_10">🧲 常见问题</h3>
 
