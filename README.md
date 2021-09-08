@@ -430,7 +430,7 @@ Redis知识体系图
 #### <h4 id="nav_sec3_chp_01_3">Redis集群方案（单副本）</h4>
 <div align=center>
  
-![image](https://user-images.githubusercontent.com/87458342/132483021-f21ed53c-cb8c-470a-97cc-e5a2b8535f34.png
+![image](https://user-images.githubusercontent.com/87458342/132483021-f21ed53c-cb8c-470a-97cc-e5a2b8535f34.png)
 <br/>
 Redis集群方案（单副本）
 
