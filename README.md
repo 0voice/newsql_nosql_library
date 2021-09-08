@@ -242,7 +242,6 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 * [11. 分表后非sharding_key的查询怎么处理呢？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_011)
 * [12. 说说mysql主从同步怎么做的吧？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_012)
 * [13. 那主从的延迟怎么解决呢？](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_013)
-
 * [14. 为什么用自增列作为主键?](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_014)
 * [15. 为什么使用数据索引能提高效率?](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_015)
 * [16. B+树索引和哈希索引的区别?](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/面试题/面试题_01.md#subject_016)
