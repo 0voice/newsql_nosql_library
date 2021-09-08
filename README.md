@@ -140,6 +140,15 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 
 #### <h4 id="nav_sec2_chp_02">MyISAM引擎</h4>
 
+#### MyISAM索引实现
+
+<div align=center>
+
+<img src="https://user-images.githubusercontent.com/87458342/132510902-a7b1c417-c3ee-4b67-8f09-65c0d2327816.png" width="85%" height="85%" />
+<img src="https://user-images.githubusercontent.com/87458342/132510942-355ac9b8-529f-4efb-a321-bb9e74fa3168.png" width="85%" height="85%" />
+
+</div>
+
 ##### <h5>MyISAM引擎特点</h5>
 
 1. 不支持事务
@@ -173,6 +182,15 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 8. MyISAM的Count只有在全表扫描的时候特别高效，带有其他条件的count都需要进行实际的数据访问。
 
 #### <h4 id="nav_sec2_chp_02">InnoDB引擎</h4>
+
+#### InnoDB索引实现
+
+<div align=center>
+
+<img src="https://user-images.githubusercontent.com/87458342/132511072-def8b581-0417-4ef0-88f0-d56a16838fa7.png" width="85%" height="85%" />
+<img src="https://user-images.githubusercontent.com/87458342/132511081-b0fd2478-6672-4468-b5e8-8b82dfa46c2b.png" width="85%" height="85%" />
+
+</div>
 
 ##### <h5>InnoDB引擎适用的生产业务场景</h5>
 
