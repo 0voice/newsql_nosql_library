@@ -446,12 +446,60 @@ Redis集群方案（单副本）
  
 ### <h3 id="nav_sec3_chp_03">⭕ 面试题</h3>
  
- 
- 
+* [01. Redis相比memcached有哪些优势？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_001)
+* [02. Redis支持哪几种数据类型？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_002)
+* [03. Redis主要消耗什么物理资源?](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_003)
+* [04. Redis的全称是什么？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_004)
+* [05. Redis有哪几种数据淘汰策略？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_005)
+* [06. Redis官方为什么不提供Windows版本？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_006)
+* [07. 一个字符串类型的值能存储最大容量是多少？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_007)
+* [08. 为什么Redis需要把所有数据放到内存中？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_008)
+* [09. Redis集群方案应该怎么做？都有哪些方案？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_009)
+* [10. Redis集群方案什么情况下会导致整个集群不可用？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_010)
+* [11. MySQL里有2000w数据，redis中只存20w的数据，如何保证redis中的数据都是热点数据？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_011)
+* [12. Redis有哪些适合的场景？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_012)
+* [13. Redis支持的Java客户端都有哪些？官方推荐用哪个？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_013)
+* [14. Redis和Redisson有什么关系？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_014)
+* [15. Jedis与Redisson对比有什么优缺点？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_015)
+* [16. Redis如何设置密码及验证密码？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_016)
+* [17. 说说Redis哈希槽的概念？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_017)
+* [18. Redis集群的主从复制模型是怎样的？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_018)
+* [19. Redis集群会有写操作丢失吗？为什么？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_019)
+* [20. Redis集群之间是如何复制的？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_020)
+* [21. Redis集群最大节点个数是多少？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_021)
+* [22. Redis集群如何选择数据库？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_022)
+* [23. 怎么测试Redis的连通性？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_023)
+* [24. Redis中的管道有什么用？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_024)
+* [25. 怎么理解Redis事务？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_025)
+* [26. Redis事务相关的命令有哪几个？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_026)
+* [27. Redis事务相关的命令有哪几个？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_027)
+* [28. ](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_028)
+* [29. Redis如何做内存优化？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_029)
+* [30. Redis回收进程如何工作的？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_030)
+* [31. Redis回收使用的是什么算法？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_032)
+* [32. Redis如何做大量数据插入？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_032)
+* [33. 为什么要做Redis分区？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_033)
+* [34. 你知道有哪些Redis分区实现方案？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_034)
+* [35. Redis分区有什么缺点？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_035)
+* [36. Redis持久化数据和缓存怎么做扩容？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_036)
+* [37. 分布式Redis是前期做还是后期规模上来了再做好？为什么？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_037)
+* [38. Twemproxy是什么？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_038)
+* [39. 支持一致性哈希的客户端有哪些？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_039)
+* [40. Redis与其他key-value存储有什么不同？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_040)
+* [41. Redis的内存占用情况怎么样？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_041)
+* [42. 都有哪些办法可以降低Redis的内存使用情况呢？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_042)
+* [43. 一个Redis实例最多能存放多少的keys？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_043)
+* [44. ](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_044)
+* [45. ](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_045)
+* [46. 一个Redis实例最多能存放多少的keys？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_046)
+* [47. Redis常见性能问题和解决方案？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_047)
+* [48. Redis提供了哪几种持久化方式？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_048)
+* [49. 如何选择合适的持久化方式？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_049)
+* [50. 修改配置不重启Redis会实时生效吗？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/面试题/面试题_01.md#subject_050)
  
 ### <h3 id="nav_sec3_chp_04">🛠 优化与集群架构</h3>
  
-#### <h4 id="nav_sec3_chp_09_1">Redis集群方式</h4>
+#### <h4 id="nav_sec3_chp_04_1">Redis集群方式</h4>
  
 * [Redis主从复制](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/集群架构/Redis主从复制.md)
 * [Redis哨兵模式](https://github.com/0voice/newsql_nosql_library/tree/main/Redis/集群架构/Redis哨兵模式.md)
