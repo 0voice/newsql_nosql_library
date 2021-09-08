@@ -575,14 +575,6 @@ Cassandra是开源分布式NoSQL数据库系统。用于储存收件箱等简单
 ### <h3 id="nav_sec3_chapter3_02">🦢 MongoDb</h3>
  
 <br/>
-
-#### 产品架构
- 
-![image](https://user-images.githubusercontent.com/87458342/132276817-dced5957-6d83-4439-be36-d44f2fe07003.png)
-
-<br/>
- 
-<br/>
 <br/>
 
 # <h1 id="nav_sec4">🦊 NewSQL数据库</h1>
