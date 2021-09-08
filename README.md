@@ -101,7 +101,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 
 <div align=center>
   
-知识体系|存储引擎|面试题|优化与架构|源码与配置参数|视频教程|文章|Paper|电子书籍|常见问题
+知识体系|存储引擎|面试题|优化与架构|源码与配置参数|视频资源|文章|Paper|电子书籍|常见问题
 :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
 [🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[📙](#nav_sec2_chp_09)|[🧲](#nav_sec2_chp_10)
  
@@ -117,6 +117,7 @@ NewSQL             |NewSQL       |NewSQL是对各种新的可扩展/高性能数
 <div align=center>
  
 <img src="https://user-images.githubusercontent.com/87458342/132217787-7570ad77-fb5a-499d-a0e3-70c69b08e506.png" width="85%" height="85%" />
+<br/>
 MySQL体系详解
  
 </div>
@@ -128,6 +129,7 @@ MySQL体系详解
 <div align=center>
  
 <img src="https://user-images.githubusercontent.com/87458342/132278098-083884ad-5554-41c9-93ed-9d2f2d131da1.png" width="70%" height="70%" />
+<br/>
 MySQL架构图
  
 </div>
@@ -282,7 +284,7 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（清幽梅
 * [MySQL5.7配置文件 my.ini 说明](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL5.7配置文件%20my.ini%20说明.md)
 * [MySQL8.0配置文件 my.ini 说明](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/源码与配置参数/MySQL8.0配置文件%20my.ini%20说明.md)
  
-### <h3 id="nav_sec2_chp_06">🧿 视频教程</h3>
+### <h3 id="nav_sec2_chp_06">🧿 视频资源</h3>
 
 * [MySQL不了解这些,好意思说搞懂了MySQL](https://github.com/0voice/backend_video#nav_1_interview_009)
 * [性能优化的方法论,异步的原理与实现，mysqlredis,dns, http，服务器并发 ]( https://github.com/0voice/backend_video#nav_1_high_performance_network_020)
@@ -417,7 +419,7 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 
 <div align=center>
   
-知识体系|存储引擎|面试题|优化与架构|源码与配置参数|视频教程|文章|Paper|电子书籍|常见问题
+知识体系|存储引擎|面试题|优化与架构|源码与配置参数|视频资源|文章|Paper|电子书籍|常见问题
 :------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
 [🌴](#nav_sec2_chp_01)|[🔱](#nav_sec2_chp_02)|[⭕](#nav_sec2_chp_03) |[🛠](#nav_sec2_chp_04)|[📜](#nav_sec2_chp_05)|[🧿](#nav_sec2_chp_06)|[📄](#nav_sec2_chp_07)|[🍀](#nav_sec2_chp_08)|[📙](#nav_sec2_chp_09)|[🧲](#nav_sec2_chp_10)
 
@@ -428,7 +430,40 @@ Percona Server 使用了一些 google-mysql-tools, Proven Scaling, Open Query �
 ### <h3 id="nav_sec2_chp_03">⭕ 面试题</h3>
 ### <h3 id="nav_sec2_chp_04">🛠 优化与架构</h3>
 ### <h3 id="nav_sec2_chp_05">📜 源码与配置参数</h3>
-### <h3 id="nav_sec2_chp_06">🧿 视频教程</h3>
+### <h3 id="nav_sec2_chp_06">🧿 视频资源</h3>
+
+* [Redis有序集合，跳表 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_011)
+* [性能优化的方法论,异步的原理与实现，mysqlredis,dns, http，服务器并发 ]( https://github.com/0voice/backend_video#nav_1_high_performance_network_020)
+* [epoll的网络模型,从redis, memcached到nginx ]( https://github.com/0voice/backend_video#nav_1_high_performance_network_025)
+* [如何在开发中使用redis ]( https://github.com/0voice/backend_video#nav_1_middleware_development_002)
+* [Redis训练营一 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_007)
+* [Redis训练营二 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_008)
+* [Redis实战场景分析 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_009)
+* [Redis使用场景实战 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_010)
+* [Redis主从复制 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_012)
+* [—起实现Redis驱动与Redis协议深度剖析 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_013)
+* [网络服务器模型, Redis, Memcached, Nginx对比 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_020)
+* [Redis, Nginx以及Skynet源码分析探究 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_023)
+* [TCP网络服务模型,Redis, Nginx，Memcached一起搞定 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_024)
+* [10年大厂程序员是如何学习使用Redis ]( https://github.com/0voice/backend_video#nav_1_middleware_development_030)
+* [秃顶大佬程序员如何制定Redis学习路线 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_035 )
+* [90分钟搞定Redis面试 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_037 )
+* [90分钟搞懂Redis存储结构 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_043 )
+* [Redis,Skynet,Nginx,Memcached网络模块对比分析 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_051 )
+* [Redis的rehash，布隆过滤器，redis持久化一节课搞定 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_052 )
+* [Redis如何实现分布式锁延时队列以及限流应用 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_053 )
+* [大厂Redis面试，你能get到几个点 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_058 )
+* [大厂秋招面试必备-从Redis应用以及原理说起 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_059 )
+* [多维度了解Redis以及原理实现 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_063 )
+* [手把手带你看Redis， skynet网络模块实现 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_073 )
+* [—场Redis线上事故引发的思考 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_078 )
+* [醍醐灌顶搞懂分布式多播以及消息队列的Redis解决方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_081 )
+* [茅塞顿开搞懂开源框架(Redis, Nginx, Skynet)中锁的使用 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_082)
+* [Redis，Memcached到Nginx，底层网络io中剥离精髓 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_125)
+* [高并发场景下,Mysql与Redis的数据同步方案 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_143)
+* [Redis是什么，用来做什么，要掌握到什么程度 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_185 )
+
+ 
 ### <h3 id="nav_sec2_chp_07">📄 文章</h3>
 ### <h3 id="nav_sec2_chp_08">🍀 Paper</h3>
 ### <h3 id="nav_sec2_chp_09">📙 电子书籍</h3>
