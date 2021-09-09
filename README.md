@@ -688,8 +688,20 @@ RocksDB能支持非常高吞吐量的IO读写，可以作为大型分布式存�
 
 ### <h3 id="nav_sec3_chp2_01">🌴 知识体系</h3>
  
-![image](https://user-images.githubusercontent.com/87458342/132618635-1df9fa78-3244-4ca6-83e7-f5659a3380b6.png)
-RocksDB5大子模块，分别为：
+#### <h4 id="nav_sec3_chp2_01_1">RocksDB体系结构</h4>
+<div>
+
+ ![image](https://user-images.githubusercontent.com/87458342/132618635-1df9fa78-3244-4ca6-83e7-f5659a3380b6.png)
+ 
+ </div>
+#### <h4 id="nav_sec3_chp2_01_1">LSM-Tree</h4>
+<div>
+ 
+![image](https://user-images.githubusercontent.com/87458342/132691503-0f209a61-85c3-4a25-b8ad-83a7294d70ff.png)
+
+</div>
+ 
+RocksDB 5大子模块，分别为：
 * Basic Operation，基本操作定义
 * Terminology，内部术语定义
 * Tool，内部工具
