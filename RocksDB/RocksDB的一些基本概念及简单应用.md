@@ -73,3 +73,126 @@ RocksDB 和 LevelDB 通过后台的 compaction 来减少读放大（减少 SST �
 Tiered Compaction vs Leveled Compaction
 
 ![image](https://user-images.githubusercontent.com/87458342/132666300-89414a96-987b-4d59-94cb-773107499560.png)
+
+上图是两种 compaction 的区别，当 Level 0 刷到 Level 1，让 Level 1 的 SST 文件达到设定的阈值，就需要进行 compaction。
+
+对于 Tiered 来说，我们会将所有的 Level 1 的文件 merge 成一个 Level 2 SST 放在 Level 2。也就是说，compaction 其实就是将上层的所有小的 SST merge 成下层一个更大的 SST 的过程。
+
+而对于 Leveled 来说，不同 Level 里面的 SST 大小都是一致的，Level 1 里面的 SST 会跟 Level 2 一起进行 merge 操作，最终在 Level 2 形成一个有序的 SST，而各个 SST 不会重叠。
+
+## 3. RocksDB在磁盘中生成的文件
+### 3.1 生成的文件
+图中为Windows环境生成的文件截图，在Linux中是一样的。
+
+![image](https://user-images.githubusercontent.com/87458342/132679048-d2495d9b-9e94-413f-9e78-107a3d79978a.png)
+
+### 3.2 文件作用解释
+* xxx.log：wal日志文件
+* xxx.sst：数据文件
+* CURRENT：是一个特殊的文件，用于声明最新的manifest日志文件
+* IDENTITY：id
+* LOCK：无内容，open时创建，表示一个db在一个进程中只能被open一次，多线程共用此实例
+* LOG：统计日志
+* MANIFEST：指一个独立的日志文件，它包含RocksDB的状态快照/版本
+* OPTIONS：配置信息
+
+### 3.2.1 MANIFEST
+Rocksdb对文件系统以及存储介质保持不可预知的态度。文件系统操作不是原子的，并且在系统错误的时候容易出现不一致。即使打开了日志系统，文件系统还是不能在一个不合法的重启中保持一致。POSIX文件系统不支持原子化的批量操作。因此，无法依赖RocksDB的数据存储文件中的元数据文件来构建RocksDB重启前的最后的状态。
+
+RocksDB有一个内建的机制来处理这些POSIX文件系统的限制，这个机制就是保存一个名为MANIFEST的RocksDB状态变化的事务日志文件。MANIFEST文件用于在重启的时候，恢复RocksDB到最后一个一致的一致性状态。
+
+* MANIFEST 指通过一个事务日志，来追踪RocksDB状态迁移的系统
+* Manifest日志 指一个独立的日志文件，它包含RocksDB的状态快照/版本
+* CURRENT 指最后的Manifest日志
+
+RocksDB 称 Manifest 文件记录了 DB 状态变化的事务性日志，也就是说它记录了所有改变 DB 状态的操作。
+RocksDB 的函数 VersionSet::LogAndApply 是对 Manifest 文件的更新操作，所以可以通过定位这个函数出现的位置来跟踪 Manifest 的记录内容。
+Manifest 文件作为事务性日志文件，只要数据库有变化，Manifest都会记录。其内容 size 超过设定值后会被 VersionSet::WriteSnapShot 重写。
+RocksDB 进程 Crash 后 Reboot 的过程中，会首先读取 Manifest 文件在内存中重建 LSM 树，然后根据 WAL 日志文件恢复 memtable 内容。
+
+## 4. 其他术语
+### 4.1 Column Family
+在RocksDB3.0，增加了Column Families的支持。
+
+RocksDB的每个键值对都与唯一一个列族（column family）结合。如果没有指定Column Family，键值对将会结合到“default” 列族。
+
+列族提供了一种从逻辑上给数据库分片的方法。他的一些有趣的特性包括：
+
+支持跨列族原子写。意味着你可以原子执行Write({cf1, key1, value1}, {cf2, key2, value2})。
+跨列族的一致性视图。
+允许对不同的列族进行不同的配置
+即时添加／删除列族。两个操作都是非常快的。
+
+列族的主要实现思想是他们共享一个WAL日志，但是不共享memtable和table文件。通过共享WAL文件，我们实现了酷酷的原子写。通过隔离memtable和table文件，我们可以独立配置每个列族并且快速删除它们。
+
+每当一个单独的列族刷盘，我们创建一个新的WAL文件。所有列族的所有新的写入都会去到新的WAL文件。但是，我们还不能删除旧的WAL，因为他还有一些对其他列族有用的数据。我们只能在所有的列族都把这个WAL里的数据刷盘了，才能删除这个WAL文件。这带来了一些有趣的实现细节以及一些有趣的调优需求。确保你的所有列族都会有规律地刷盘。另外，看一下Options::max_total_wal_size，通过配置他，过期的列族能自动被刷盘。
+
+如果类比到关系型数据库中，列族可以看做是表的概念。
+
+
+### 4.2 Statistics
+用法：
+创建一个statistics对象传给options，rocksdb.open时将options传进去。
+open后可通过options拿出statistics对象，可直接在代码中获取统计信息；也可配置时间，周期性将统计信息输出到日志中。
+
+官方文档中指出，打开statistics会损失5%-10%的性能。
+
+这里做个小测试
+创建4个列族，向其中一个列族批量插入100W条数据，通过代码获取全部统计信息，打印到控制台。
+
+数据统计类型分成两种:
+
+* ticker：计数，类型是64位无符号整型。用于度量counters (e.g. “rocksdb.block.cache.hit”), cumulative bytes (e.g. “rocksdb.bytes.written”) 或者 time (e.g. “rocksdb.l0.slowdown.micros”)。
+* histogram：统计数据的统计分布，大多数用于DB操作的耗时分布。
+
+ticker输出截图如下：
+![image](https://user-images.githubusercontent.com/87458342/132679364-74c5e33c-2e37-4b28-85ff-a7cbecae9a50.png)
+
+![image](https://user-images.githubusercontent.com/87458342/132679390-e3aaa54d-0be7-43e9-b7cc-d9ec7ea1b169.png)
+
+![image](https://user-images.githubusercontent.com/87458342/132679416-1d387a00-e92e-4356-991a-9908360ae2b7.png)
+
+![image](https://user-images.githubusercontent.com/87458342/132679447-d6bb938f-b291-454b-97ab-abef3ea01b7b.png)
+
+![image](https://user-images.githubusercontent.com/87458342/132679466-0e792016-7548-464d-810f-9ea3ac5e32b3.png)
+
+![image](https://user-images.githubusercontent.com/87458342/132679507-ac4910a1-c140-4b57-98fc-fe0d7a1d8c78.png)
+
+histogram输出截图如下：
+
+![image](https://user-images.githubusercontent.com/87458342/132679565-f334c524-6c0a-423b-b91a-6a9322b094fe.png)
+
+![image](https://user-images.githubusercontent.com/87458342/132679613-34ca6de9-3e36-486b-9ab8-bcf59b6d7ac4.png)
+
+### 4.3 Snapshot
+一个快照会捕获在创建的时间点的DB的一致性视图。快照在DB重启之后将消失。
+
+### 4.4 Iterator
+RocksDB迭代器允许用户以一个排序好的顺序向后或者向前遍历db。它还拥有查找DB中的一个特定key的功能，为此，迭代器需要以一个排序好的流来访问DB。
+
+迭代器可以结合快照使用。比如Jraft源码中的这一段，就是使用迭代器遍历RocksDB中的数据，来找到一个中间值。
+
+![image](https://user-images.githubusercontent.com/87458342/132679817-2c6ff716-12b2-40dc-aaa6-56a981dbda20.png)
+
+### 4.5 Ingest
+RocksDB向用户提供了一系列API用于创建及导入SST文件。在你需要快速读取数据但是数据的生成是离线的时候，这非常有用。
+
+可以通过SstFileWriter这个对象来直接写sst，然后再将sst通过Ingest导入到RocksDB中。
+
+注意：
+* 传给SstFileWriter的Options会被用于指定表类型，压缩选项等，用于创建sst文件。
+* 传入SstFileWriter的Comparator必须与之后导入这个SST文件的DB的Comparator绝对一致。
+* 行必须严格按照增序插入
+
+
+## 5. 应用场景
+* 蚂蚁金服开源的SOFA-Jraft，采用RocksDB存储raft日志。
+* 百度开源图数据库HugeGraph，默认采用RocksDB作为存储引擎。
+* 国产开源分布式数据库TiDB，底层采用RocksDB作为存储引擎。
+
+## 6. 总结
+RocksDB可以作为内嵌式数据库来使用，也可以作为自研数据库的底层存储引擎来使用，其数据结构是LSM tree，保证了读写效率。
+
+使用简单但调优困难，可以借鉴业界中一些开源产品对其使用时设置的参数，来参考调优。但切忌盲目“抄袭”参数，毕竟业务场景不同，对应的调优参数也是不同的。
+
+
