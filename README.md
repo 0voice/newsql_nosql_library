@@ -709,8 +709,8 @@ RocksDB 5大子模块，分别为：
 * System Behavior，内部系统行为
 
 ### <h3 id="nav_sec3_chp2_01">📄 文章</h3>
-[高性能存储引擎RocksDB模块详解](https://github.com/0voice/newsql_nosql_library/blob/main/RocksDB/知识体系/RocksDB模块详解.md)
-[RocksDB概念及简单应用](https://github.com/0voice/newsql_nosql_library/blob/main/RocksDB/RocksDB概念及简单应用.md)
+* [高性能存储引擎RocksDB模块详解](https://github.com/0voice/newsql_nosql_library/blob/main/RocksDB/知识体系/RocksDB模块详解.md)
+* [RocksDB概念及简单应用](https://github.com/0voice/newsql_nosql_library/blob/main/RocksDB/RocksDB概念及简单应用.md)
 
 ## <h2 id="nav_sec3_chapter2">列存储数据库</h2>
 
@@ -731,6 +731,10 @@ Cassandra是开源分布式NoSQL数据库系统。用于储存收件箱等简单
 * 基于column的结构化
 * 高伸展性
 
+### Cassandra体系结构
+ 
+![image](https://user-images.githubusercontent.com/87458342/132696302-bf550321-534d-41b4-93aa-ebe55e3b8907.png)
+ 
 <br/>
  
 ## <h2 id="nav_sec3_chapter3">文档型数据库</h2>
