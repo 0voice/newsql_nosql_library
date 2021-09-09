@@ -1,4 +1,4 @@
-# RocksDB的一些基本概念及简单应用
+# RocksDB概念及简单应用
 
 ## 1. 简介
 RocksDB是使用C++编写的嵌入式kv存储引擎，其键值均允许使用二进制流。由Facebook基于levelDB开发， 提供向后兼容的levelDB API。
