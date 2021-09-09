@@ -674,7 +674,8 @@ RocksDB能支持非常高吞吐量的IO读写，可以作为大型分布式存�
 * 可适配性： RocksDB适合于多种不同工作量类型。 从像MyRocks这样的数据存储引擎， 到应用数据缓存, 甚至是一些嵌入式工作量，RocksDB都可以从容面对这些不同的数据工作量需求。
 * 基础和高级的数据库操作： RocksDB提供了一些基础的操作，例如打开和关闭数据库。 对于合并和压缩过滤等高级操作，也提供了读写支持。
 
-* [RocksDB官方网址](https://rocksdb.org.cn/)
+* [RocksDB官方网址](https://rocksdb.org/)
+* [RocksDB中文网址](http://rocksdb.org.cn/)
  
 ##### RocksDB的典型场景（低延时访问）:
  
