@@ -496,8 +496,6 @@ Redis的五大数据类型也称五大数据对象；Redis并没有直接使用�
 redis是以键值对存储数据的，所以对象又分为键对象和值对象，即存储一个key-value键值对会创建两个对象，键对象和值对象。键对象总是一个字符串对象，而值对象可以是五大对象中的任意一种。
 ![image](https://user-images.githubusercontent.com/87458342/132520773-e67eaf74-fa7c-40f7-9ebd-3f2e13946470.png)
 
-<br/>
- 
 * [字符串对象(string)](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/数据类型/Redis数据类型.md#redis_data_structure_1)
 * [列表对象(list)](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/数据类型/Redis数据类型.md#redis_data_structure_2)
 * [哈希对象(hash)](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/数据类型/Redis数据类型.md#redis_data_structure_3)
