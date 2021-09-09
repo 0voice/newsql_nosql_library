@@ -205,8 +205,8 @@ MyISAM的索引方式也叫做“非聚集”的，之所以这么称呼是为�
 InnoDB的数据文件本身就是索引文件。从上文知道，MyISAM索引文件和数据文件是分离的，索引文件仅保存数据记录的地址。而在InnoDB中，表数据文件本身就是按B+Tree组织的一个索引结构，这棵树的叶节点data域保存了完整的数据记录。这个索引的key是数据表的主键，因此InnoDB表数据文件本身就是主索引。
 
 <div align=center>
- 
-<img src="https://user-images.githubusercontent.com/87458342/132511072-def8b581-0417-4ef0-88f0-d56a16838fa7.png" width="65%" height="65%" />
+
+<img src="https://user-images.githubusercontent.com/87458342/132619768-e8d5799b-cef0-4601-baf0-4838b1a60e94.png" width="65%" height="65%" />
 
 </div>
  
@@ -215,8 +215,8 @@ InnoDB的数据文件本身就是索引文件。从上文知道，MyISAM索引�
 第二个与MyISAM索引的不同是InnoDB的辅助索引data域存储相应记录主键的值而不是地址。换句话说，InnoDB的所有辅助索引都引用主键作为data域。例如，下图为定义在Col3上的一个辅助索引： 
 
 <div align=center>
- 
-<img src="https://user-images.githubusercontent.com/87458342/132511081-b0fd2478-6672-4468-b5e8-8b82dfa46c2b.png" width="65%" height="65%" />
+
+<img src="https://user-images.githubusercontent.com/87458342/132620002-3ffbc0ba-c051-4765-a413-299f666fdde6.png" width="65%" height="65%" />
 
 </div>
 这里以英文字符的ASCII码作为比较准则。聚集索引这种实现方式使得按主键的搜索十分高效，但是辅助索引搜索需要检索两遍索引：首先检索辅助索引获得主键，然后用主键到主索引中检索获得记录。
