@@ -657,15 +657,44 @@ No.|Title|Translate|Company
 
 ### <h3 id="nav_sec3_chapter1_02">🦗 RocksDB</h3>
  
-#### 特性：
+<div align=center>
+ 
+知识体系|数据类型|面试题|优化与集群架构|源码与配置参数|视频资源|文章|Paper|电子书籍|常见问题
+:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:
+[🌴](#nav_sec3_chp_01)|[♨](#nav_sec3_chp_02)|[⭕](#nav_sec3_chp_03) |[🛠](#nav_sec3_chp_04)|[📜](#nav_sec3_chp_05)|[🧿](#nav_sec3_chp_06)|[📄](#nav_sec3_chp_07)|[🍀](#nav_sec3_chp_08)|[📙](#nav_sec3_chp_09)|[🧲](#nav_sec3_chp_10)
+
+</div>
+
+#### RocksDB特点：
+RocksDB是嵌入式持久化存储系统，它是一个单点高性能的存储DB，不是分布式存储系统。
+RocksDB能支持非常高吞吐量的IO读写，可以作为大型分布式存储系统元数据的存储媒介，比如Hadoop Ozone就将其元数据使用RocksDB作为元数据的结果写出。
+ 
 * 高性能： RocksDB使用一套日志结构的数据库引擎，为了更好的性能，这套引擎是用C++编写的。 Key和value是任意大小的字节流。
 * 为快速存储而优化： RocksDB为快速而又低延迟的存储设备（例如闪存或者高速硬盘）而特殊优化处理。 RocksDB将最大限度的发挥闪存和RAM的高度率读写性能。
 * 可适配性： RocksDB适合于多种不同工作量类型。 从像MyRocks这样的数据存储引擎， 到应用数据缓存, 甚至是一些嵌入式工作量，RocksDB都可以从容面对这些不同的数据工作量需求。
 * 基础和高级的数据库操作： RocksDB提供了一些基础的操作，例如打开和关闭数据库。 对于合并和压缩过滤等高级操作，也提供了读写支持。
- 
+
 * [RocksDB官方网址](https://rocksdb.org.cn/)
  
-<br/>
+##### RocksDB的典型场景（低延时访问）:
+ 
+1. 需要存储用户的查阅历史记录和网站用户的应用
+2. 需要快速访问数据的垃圾检测应用
+3. 需要实时scan数据集的图搜索query
+4. 需要实时请求Hadoop的应用
+5. 支持大量写和删除操作的消息队列
+
+### <h3 id="nav_sec3_chp2_01">🌴 知识体系</h3>
+ 
+![image](https://user-images.githubusercontent.com/87458342/132618635-1df9fa78-3244-4ca6-83e7-f5659a3380b6.png)
+RocksDB5大子模块，分别为：
+* Basic Operation，基本操作定义
+* Terminology，内部术语定义
+* Tool，内部工具
+* Logging/Monitoring ,日志和监控
+* System Behavior，内部系统行为
+
+[高性能存储引擎RocksDB模块详解](https://github.com/0voice/newsql_nosql_library/blob/main/RocksDB/知识体系/RocksDB模块详解.md)
  
 ## <h2 id="nav_sec3_chapter2">列存储数据库</h2>
 
