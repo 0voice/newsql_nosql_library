@@ -385,19 +385,19 @@ MariaDB数据库管理系统是MySQL的一个分支，主要由开源社区在�
 MariaDB基于事务的Maria存储引擎，替换了MySQL的MyISAM存储引擎。<br/>
 MariaDB直到5.5版本，均依照MySQL的版本。<br/>
 
-### MariaDB项目
+### <h3 id="nav_sec2_chp2_01">MariaDB项目</h3>
 * [MariaDB项目地址](https://github.com/MariaDB)。
 * [MySQ迁移到MariaDB](https://github.com/0voice/newsql_nosql_library/blob/main/MariaDB/MySQ迁移到MariaDB.md)。
 * [MariaDB优势](https://github.com/0voice/newsql_nosql_library/blob/main/MariaDB/MariaDB优势.md)。
 * [MariaDB是MySQL的二进制替代品](https://github.com/0voice/newsql_nosql_library/blob/main/MariaDB/MariaDB是MySQL的二进制替代品.md)
 
-### MariaDB与MySQL比较
+### <h3 id="nav_sec2_chp2_02">MariaDB与MySQL比较</h3>
 * [MariaDB与MySQL特性比较](https://mariadb.com/kb/en/mariadb-vs-mysql-features/)
 * [MariaDB与MySQL兼容性比较](https://mariadb.com/kb/en/mariadb-vs-mysql-compatibility/)
 * [MariaDB各个发行版的异同](https://mariadb.com/kb/en/mariadb-releases/)
 * [MariaDB发行注记](https://mariadb.com/kb/en/release-notes/)
 
-### MariaDB第三方工具
+### <h3 id="nav_sec2_chp2_03">MariaDB第三方工具</h3>
 * [DBEdit](http://dbedit2.sourceforge.net/) 一个免费的MariaDB数据库和其他数据库管理应用程序。
 * [Navicat](https://www.navicat.com.cn/) 一系列Windows、Mac OS X、Linux下专有数据库管理应用程序。
 * [HeidiSQL](https://www.heidisql.com/) 一个Windows上自由和开放源码的MySQL客户端。它支持MariaDB的5.2.7版本和以后的版本。[5][6]
