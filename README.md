@@ -656,7 +656,7 @@ No.|Title|Translate|Company
 <br/>
 
 ### <h3 id="nav_sec3_chapter1_02">🦗 RocksDB</h3>
- 
+<!--
 <div align=center>
  
 知识体系|数据类型|面试题|优化与集群架构|源码与配置参数|视频资源|文章|Paper|电子书籍|常见问题
@@ -664,6 +664,7 @@ No.|Title|Translate|Company
 [🌴](#nav_sec3_chp_01)|[♨](#nav_sec3_chp_02)|[⭕](#nav_sec3_chp_03) |[🛠](#nav_sec3_chp_04)|[📜](#nav_sec3_chp_05)|[🧿](#nav_sec3_chp_06)|[📄](#nav_sec3_chp_07)|[🍀](#nav_sec3_chp_08)|[📙](#nav_sec3_chp_09)|[🧲](#nav_sec3_chp_10)
 
 </div>
+-->
 
 #### RocksDB特点：
 RocksDB是嵌入式持久化存储系统，它是一个单点高性能的存储DB，不是分布式存储系统。
