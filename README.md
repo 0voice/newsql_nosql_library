@@ -334,7 +334,7 @@ No.|Article|Author
 11|[5kw数据量,如何为表增加一列](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/5kw数据量,如何为表增加一列.md)|
 12|[互联网在线表结构变更](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/互联网在线表结构变更.md)|
 13|[58同城,1万属性100亿数据量数据库架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/58同城,1万属性100亿数据量数据库架构设计.md)|
-14|[每秒10万并发 mysql_亿级流量系统架构之如何设计每秒十万查询的高并发架构](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/每秒10万并发,Mysql亿级流量系统架构之如何设计每秒十万查询的高并发架构.md)|
+14|[每秒10万并发 mysql_亿级流量系统架构之如何设计每秒十万查询的高并发架构](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/每秒10万并发,Mysql亿级流量系统架构之如何设计每秒十万查询的高并发架构.md)|清幽梅
  
 #### <h4 id="nav_sec2_chp_07_2">📙 电子书籍</h4>
  
