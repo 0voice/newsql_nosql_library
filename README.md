@@ -482,7 +482,8 @@ Redis的五大数据类型也称五大数据对象；Redis并没有直接使用�
 而这五大对象的底层数据编码可以用命令OBJECT ENCODING来进行查看。<br/>
 ```C
 //redisObjecttypedef struct redisObject {
-    // 类型属性存储的是对象的类型，也就是我们说的 string、list、hash、set、zset中的一种，　　//可以使用命令 TYPE key 来查看。
+    // 类型属性存储的是对象的类型，也就是我们说的 string、list、hash、set、zset中的一种，
+    // 可以使用命令 TYPE key 来查看。
     unsigned type:4;
     // 编码，记录了队形所使用的编码，即这个对象底层使用哪种数据结构实现。
     unsigned encoding:4;
