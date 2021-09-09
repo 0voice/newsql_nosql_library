@@ -138,6 +138,10 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（石杉）
  
 ### <h3 id="nav_sec2_chp_02">🔱 存储引擎</h3>
 
+* MyISAM引擎使用B+Tree作为索引结构，叶节点的data域存放的是数据记录的地址。
+* InnoDB引擎使用B+Tree作为索引结构，叶节点保存了完整的数据记录（数据和索引）。
+* [B+树原理详解](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/存储引擎/B+树原理详解.md)
+
 #### <h4 id="nav_sec2_chp_02">MyISAM引擎</h4>
 
 #### MyISAM索引实现
@@ -149,12 +153,16 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（石杉）
 
 </div>
 
-* MyISAM中，主索引和辅助索引（Secondary key）在结构上没有任何区别，只是主索引要求key是唯一的，而辅助索引的key可以重复。
+这里设表一共有三列，假设我们以Col1为主键，则上图是一个MyISAM表的主索引（Primary key）示意。可以看出MyISAM的索引文件仅仅保存数据记录的地址。在MyISAM中，主索引和辅助索引（Secondary key）在结构上没有任何区别，只是主索引要求key是唯一的，而辅助索引的key可以重复。如果我们在Col2上建立一个辅助索引，则此索引的结构如下图所示： 
+
 <div align=center>
 
  <img src="https://user-images.githubusercontent.com/87458342/132510942-355ac9b8-529f-4efb-a321-bb9e74fa3168.png" width="65%" height="65%" />
 
 </div>
+
+同样也是一颗B+Tree，data域保存数据记录的地址。因此，MyISAM中索引检索的算法为首先按照B+Tree搜索算法搜索索引，如果指定的Key存在，则取出其data域的值，然后以data域的值为地址，读取相应数据记录。 
+MyISAM的索引方式也叫做“非聚集”的，之所以这么称呼是为了与InnoDB的聚集索引区分。
 
 ##### <h5>MyISAM引擎特点</h5>
 
@@ -194,19 +202,24 @@ MySQL亿级流量系统设计每秒十万查询的高并发架构图（石杉）
 
 * InnoDB也使用B+Tree作为索引结构，但具体实现方式却与MyISAM截然不同。叶节点保存了完整的数据记录（数据和索引）。
 
+InnoDB的数据文件本身就是索引文件。从上文知道，MyISAM索引文件和数据文件是分离的，索引文件仅保存数据记录的地址。而在InnoDB中，表数据文件本身就是按B+Tree组织的一个索引结构，这棵树的叶节点data域保存了完整的数据记录。这个索引的key是数据表的主键，因此InnoDB表数据文件本身就是主索引。
+
 <div align=center>
  
 <img src="https://user-images.githubusercontent.com/87458342/132511072-def8b581-0417-4ef0-88f0-d56a16838fa7.png" width="65%" height="65%" />
 
 </div>
  
-* InnoDB的辅助索引data域存储相应记录主键的值而不是地址。
+上图是InnoDB主索引（同时也是数据文件）的示意图，可以看到叶节点包含了完整的数据记录。这种索引叫做聚集索引。因为InnoDB的数据文件本身要按主键聚集，所以InnoDB要求表必须有主键（MyISAM可以没有），如果没有显式指定，则MySQL系统会自动选择一个可以唯一标识数据记录的列作为主键，如果不存在这种列，则MySQL自动为InnoDB表生成一个隐含字段作为主键，这个字段长度为6个字节，类型为长整形。
+
+第二个与MyISAM索引的不同是InnoDB的辅助索引data域存储相应记录主键的值而不是地址。换句话说，InnoDB的所有辅助索引都引用主键作为data域。例如，下图为定义在Col3上的一个辅助索引： 
 
 <div align=center>
  
 <img src="https://user-images.githubusercontent.com/87458342/132511081-b0fd2478-6672-4468-b5e8-8b82dfa46c2b.png" width="65%" height="65%" />
 
 </div>
+这里以英文字符的ASCII码作为比较准则。聚集索引这种实现方式使得按主键的搜索十分高效，但是辅助索引搜索需要检索两遍索引：首先检索辅助索引获得主键，然后用主键到主索引中检索获得记录。
 
 ##### <h5>InnoDB引擎适用的生产业务场景</h5>
 
