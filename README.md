@@ -1,5 +1,7 @@
-# 💨🏹🌀 2021年，史上最强的数据库资料集合 <br/> 12种数据库的全方位整理：mysql，mariaDB，Percona Server，MongoDB，Redis，RocksDB，TiDB，CouchDB，Cassandra，TokuDB，MemDB，Oceanbase
-
+# 💨🏹🌀 2021年，史上最强的数据库资料集合 <br/> 12种数据库的全方位整理：mysql，mariaDB，Percona Server，Redis，RocksDB，Cassandra，CouchDB，MongoDB，TokuDB，TiDB，MemDB，Oceanbase
+<!--
+# 💨🏹🌀 2021年，史上最强的数据库资料集合 <br/> 8种数据库的全方位整理：mysql，mariaDB，Percona Server，Redis，RocksDB，Cassandra，CouchDB，MongoDB
+-->
 
 <br/>
 <br/>
@@ -788,6 +790,7 @@ snitch将一组机器定义为数据中心和机架(拓扑)，副本策略使用
  
 <br/>
 <br/>
+
 
 # <h1 id="nav_sec4">🦊 NewSQL数据库</h1>
  
