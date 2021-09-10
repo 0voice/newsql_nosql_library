@@ -731,9 +731,44 @@ Cassandra是开源分布式NoSQL数据库系统。用于储存收件箱等简单
 * 基于column的结构化
 * 高伸展性
 
-### Cassandra体系结构
+#### Cassandra体系结构
  
 ![image](https://user-images.githubusercontent.com/87458342/132696302-bf550321-534d-41b4-93aa-ebe55e3b8907.png)
+ 
+##### 核心结构
+* Node
+存储数据的地方。它是Cassandra的基础设施组件
+* datacenter
+相关节点的集合。数据中心可以是物理数据中心，也可以是虚拟数据中心。不同的工作负载应该使用单独的数据中心，无论是物理的还是虚拟的。复制由数据中心设置。使用单独的数据中心可以防止Cassandra事务受到其他工作负载的影响，并使请求彼此接近以降低延迟。根据复制因子，可以将数据写入多个数据中心。数据中心绝不能跨越物理位置。
+* Cluster 
+一个集群包含一个或多个数据中心。它可以跨越物理位置。
+* Commit log
+为了持久性，所有数据写入之前都要首先写入提交日志（日志写入优先）。所有数据都刷新到SSTables之后，就可以对其进行归档、删除或回收。 
+* SSTable（Sorted String Table） 
+一个SSTable是一个不可变的数据文件，Cassandra定期将memtables写入其中。仅追加SSTables并按顺序存储在磁盘上，并为每个Cassandra表维护SSTables。
+* CQL Table
+按表行获取的有序列的集合。一张表由多列组成，并且有一个主键。
+ 
+##### 核心组件
+* Gossip
+一种对等通信协议，用于发现和共享Cassandra集群中其他节点的位置和状态信息。Gossip息也由每个节点本地保存，以便在节点重新启动时立即使用。
+* Partitioner
+分区程序确定哪个节点将接收一段数据的第一个副本，以及如何跨集群中的其他节点分发其他副本。每一行数据都由一个主键唯一地标识，主键可能与其分区键相同，但也可能包含其他集群列。Partitioner是一个哈希函数，它从一行的主键派生标记。分区程序使用令牌值来确定集群中的哪些节点接收该行的副本。Murmur3Partitioner是新Cassandra集群的默认分区策略，几乎在所有情况下都是新集群的正确选择。
+* Replication factor
+整个集群中的副本总数。副本因子1表示在一个节点上每一行只有一个副本。副本因子2表示每一行有两个副本，其中每个副本位于不同的节点上。所有的副本都同样重要，没有主副本。你可以为每个数据中心定义副本因子。通常，应该将副本策略设置为大于1，但不超过集群中的节点数。
+* Replica placement strategy
+Cassandra将数据的副本存储在多个节点上，以确保可靠性和容错能力。副本策略决定将副本放在哪个节点上。数据的第一个副本就是第一个副本，它在任何意义上都不是唯一的。强烈建议使用NetworkTopologyStrategy策略，因为在将来需要扩展时，可以轻松扩展到多个数据中心。创建keyspace时，必须定义副本放置策略和所需的副本数。
+* Snitch
+snitch将一组机器定义为数据中心和机架(拓扑)，副本策略使用这些数据中心和机架放置副本。
+在创建集群时，必须配置一个snitch。所有的snitch都使用一个动态的snitch层，该层监视性能并选择最佳副本进行读取。它是默认启用的，建议在大多数部署中使用。在cassandra.yaml配置文件中为每个节点配置动态snitch阈值。
+* cassandra.yaml
+用于设置集群的初始化属性、表的缓存参数、调优和资源利用率的属性、超时设置、客户端连接、备份和安全性的主要配置文件。
+ 
+#### 文章
+[Cassandra数据分区](https://github.com/0voice/newsql_nosql_library/blob/main/Cassandra/文章/Cassandra数据分区.md)
+[Cassandra基础](https://github.com/0voice/newsql_nosql_library/blob/main/Cassandra/文章/Cassandra基础.md）
+ 
+### 
  
 <br/>
  
