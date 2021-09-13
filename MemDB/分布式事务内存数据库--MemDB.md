@@ -13,7 +13,6 @@
 ## 链接
 * 主页：http://memdb.org
 * GitHub：https://github.com/rain1017/memdb
-* GitHub权威资料：https://github.com/0voice/newsql_nosql_library
 * API参考：https://github.com/rain1017/memdb/wiki/API-Reference
 
 ## 架构
