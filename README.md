@@ -769,6 +769,7 @@ snitch将一组机器定义为数据中心和机架(拓扑)，副本策略使用
 #### 文章
 * [Cassandra数据分区](https://github.com/0voice/newsql_nosql_library/blob/main/Cassandra/文章/Cassandra数据分区.md)
 * [Cassandra基础](https://github.com/0voice/newsql_nosql_library/blob/main/Cassandra/文章/Cassandra基础.md)
+* [NoSQL数据库——Cassandra](https://github.com/0voice/newsql_nosql_library/blob/main/Cassandra/文章/NoSQL数据库——Cassandra.md)
  
 ### 
  
