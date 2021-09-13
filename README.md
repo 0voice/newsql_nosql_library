@@ -767,8 +767,8 @@ snitch将一组机器定义为数据中心和机架(拓扑)，副本策略使用
 用于设置集群的初始化属性、表的缓存参数、调优和资源利用率的属性、超时设置、客户端连接、备份和安全性的主要配置文件。
  
 #### 文章
-[Cassandra数据分区](https://github.com/0voice/newsql_nosql_library/blob/main/Cassandra/文章/Cassandra数据分区.md)
-[Cassandra基础](https://github.com/0voice/newsql_nosql_library/blob/main/Cassandra/文章/Cassandra基础.md）
+* [Cassandra数据分区](https://github.com/0voice/newsql_nosql_library/blob/main/Cassandra/文章/Cassandra数据分区.md)
+* [Cassandra基础](https://github.com/0voice/newsql_nosql_library/blob/main/Cassandra/文章/Cassandra基础.md)
  
 ### 
  
