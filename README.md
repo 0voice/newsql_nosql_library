@@ -805,20 +805,20 @@ snitch将一组机器定义为数据中心和机架(拓扑)，副本策略使用
 
 ### <h3 id="nav_sec4_chapter4_01">🐪 TiDB</h3>
  
-[TiDB概述和整体架构](https://github.com/0voice/newsql_nosql_library/blob/main/TiDB/TiDB概述和整体架构.md)
+* [TiDB概述和整体架构](https://github.com/0voice/newsql_nosql_library/blob/main/TiDB/TiDB概述和整体架构.md)
  
 <br/>
  
 ### <h3 id="nav_sec4_chapter4_02">🐫 Oceanbase</h3>
  
-[阿里巴巴开源数据库--OceanBase从使用聊到架构剖析](https://github.com/0voice/newsql_nosql_library/blob/main/Oceanbase/阿里巴巴开源数据库--OceanBase从使用聊到架构剖析.md)
+* [阿里巴巴开源数据库--OceanBase从使用聊到架构剖析](https://github.com/0voice/newsql_nosql_library/blob/main/Oceanbase/阿里巴巴开源数据库--OceanBase从使用聊到架构剖析.md)
  
 <br/>
  
 ### <h3 id="nav_sec4_chapter4_03">🐐 MemDB</h3>
 
-[分布式事务内存数据库--MemDB](https://github.com/0voice/newsql_nosql_library/blob/main/MemDB/分布式事务内存数据库--MemDB.md)
-[Oceanbase,TiDB,Cassandra,RocksDB,MemDB对比](https://github.com/0voice/newsql_nosql_library/blob/main/summary/Oceanbase,TiDB,Cassandra,RocksDB,MemDB对比.md)
+* [分布式事务内存数据库--MemDB](https://github.com/0voice/newsql_nosql_library/blob/main/MemDB/分布式事务内存数据库--MemDB.md)
+* [Oceanbase,TiDB,Cassandra,RocksDB,MemDB对比](https://github.com/0voice/newsql_nosql_library/blob/main/summary/Oceanbase,TiDB,Cassandra,RocksDB,MemDB对比.md)
  
 <br/>
 <br/>
