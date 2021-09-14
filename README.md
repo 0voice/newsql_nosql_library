@@ -609,6 +609,7 @@ redis是以键值对存储数据的，所以对象又分为键对象和值对象
 
 * [Redis底层数据结构](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/文章/redis底层数据结构.md)
 * [Redis的哨兵模式和集群模式](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/文章/Redis的哨兵模式和集群模式.md)
+* [如何解决Redis的热key问题？](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/文章/如何解决Redis的热key问题？)
  
 ### <h3 id="nav_sec3_chp_08">🍀 Paper</h3>
  
