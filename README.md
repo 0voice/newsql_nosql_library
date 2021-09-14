@@ -337,7 +337,6 @@ No.|Article|Author
 12|[互联网在线表结构变更](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/互联网在线表结构变更.md)|
 13|[58同城,1万属性100亿数据量数据库架构设计](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/58同城,1万属性100亿数据量数据库架构设计.md)|
 14|[每秒10万并发 mysql_亿级流量系统架构之如何设计每秒十万查询的高并发架构](https://github.com/0voice/newsql_nosql_library/blob/main/mysql/文章/每秒10万并发,Mysql亿级流量系统架构之如何设计每秒十万查询的高并发架构.md)|清幽梅
-15|[Redis底层数据结构](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/文章/redis底层数据结构.md)|jaycekon
 
  
 #### <h4 id="nav_sec2_chp_07_2">📙 电子书籍</h4>
@@ -607,6 +606,8 @@ redis是以键值对存储数据的，所以对象又分为键对象和值对象
 * [Redis是什么，用来做什么，要掌握到什么程度 ]( https://github.com/0voice/backend_video#nav_1_middleware_development_185 )
 
 ### <h3 id="nav_sec3_chp_07">📄 文章</h3>
+
+* [Redis底层数据结构](https://github.com/0voice/newsql_nosql_library/blob/main/Redis/文章/redis底层数据结构.md)
  
 ### <h3 id="nav_sec3_chp_08">🍀 Paper</h3>
  
