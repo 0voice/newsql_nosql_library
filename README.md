@@ -799,6 +799,22 @@ snitch将一组机器定义为数据中心和机架(拓扑)，副本策略使用
 
 ### <h3 id="nav_sec4_chapter2_01">🦅 TokuDB</h3>
 
+#### TokuDB介绍
+ TokuDB 是一个高性能、支持事务处理的 MySQL 和 MariaDB 的存储引擎。TokuDB 的主要特点则是对高写压力的支持。
+
+#### TokuDB 特性：
+
+* Up to 25x Data Compression
+* Fast Inserts
+* Eliminates Slave Lag with Read Free Replication
+* Hot Schema Changes
+* Hot Index Creation - TokuDB tables support insertions, deletions and queries with no down time while indexes are being added to that table
+* Hot column addition, deletion, expansion, and rename - TokuDB tables support insertions, deletions and queries without down-time when an alter table adds, deletes, expands,  or renames columns
+* On-line Backup
+
+#### TokuDB发展
+TokuDB在 8.0 版本已标记为废除状态，下一个大版本更新将会移除此引擎，官方推荐了性能更优的 MyROcks 引擎。
+ 
 <br/>
  
 ## <h2 id="nav_sec4_chapter4">分布式数据库</h2>
